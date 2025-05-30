@@ -1,0 +1,30 @@
+
+
+
+
+extends ../layouts/main-layout.pug
+
+
+block styles 
+   
+
+block content
+    form(action="/admin/add-category",method="POST")
+        // csurf token istekte almak için
+        input(type="hidden",name="_csrf",value=`${csrfToken}`)
+        // =================
+        .row.form-group 
+            label.col-sm-2.col-form-label(for="name") Name 
+            .col-sm-10 
+                input.form-control(type="text",id="name",name="name")
+        // =================
+        .row.form-group 
+            label.col-sm-2.col-form-label(for="description") Description 
+            .col-sm-10 
+                input.form-control(type="text",id="description",name="description")
+        // =================
+        .row.form-group.mt-2 
+            .col-sm-10 
+                input.btn.btn-primary(type="submit",value="Save Category")
+        // =================
+        

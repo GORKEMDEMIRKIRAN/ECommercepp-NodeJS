@@ -1,0 +1,72 @@
+
+
+
+
+extends ../layouts/main-layout.pug
+
+block styles 
+
+block content 
+    h3 ADD ADDRESS 
+
+    .card.mt-5(style="background:grey") 
+
+        .card-header 
+            h4 Create Address
+        .card-body 
+            form(action="/account/add-address" method="POST")
+                // csurf token istekte almak için
+                input(type="hidden",name="_csrf",value=`${csrfToken}`)
+
+
+                .row.form-group.mt-2
+                    .col.sm-4
+                        h2.col.col-form-label(for="main") Address Name
+                    .col-sm-8
+                        input.form-control(type="text",id="main",name="main")
+
+                .row.form-group.mt-2
+                    .col.sm-2 
+                        label.col.col-form-label(for="country") Country
+                    .col-sm-10 
+                        input.form-control(type="text",id="country",name="country")
+
+                .row.form-group.mt-2
+                    .col.sm-2 
+                        label.col.col-form-label(for="city") City
+                    .col-sm-10 
+                        input.form-control(type="text",id="city",name="city")
+
+                .row.form-group.mt-2
+                    .col.sm-2 
+                        label.col.col-form-label(for="street") Street
+                    .col-sm-10 
+                        input.form-control(type="text",id="street",name="street")
+
+                .row.form-group.mt-2
+                    .col.sm-2 
+                        label.col.col-form-label(for="apartment") Apartment
+                    .col-sm-10 
+                        input.form-control(type="text",id="apartment",name="apartment")   
+
+                .row.form-group.mt-2
+                    .col.sm-2 
+                        label.col.col-form-label(for="floor") Floor
+                    .col-sm-10 
+                        input.form-control(type="text",id="floor",name="floor") 
+
+                .row.form-group.mt-2
+                    .col.sm-2 
+                        label.col.col-form-label(for="apartmentno") Apartment No
+                    .col-sm-10 
+                        input.form-control(type="text",id="apartmentno",name="apartmentno")   
+
+                .row.form-group.mt-2
+                    .col.sm-2 
+                        label.col.col-form-label(for="postacode") Posta Code
+                    .col-sm-10 
+                        input.form-control(type="text",id="postacode",name="postacode")
+
+                .row.mt-5  
+                    .col-sm-2    
+                        button(type="submit").btn.btn-primary Save Address

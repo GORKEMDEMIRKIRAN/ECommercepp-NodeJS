@@ -1,0 +1,44 @@
+
+
+
+extends ../layouts/main-layout.pug
+
+block content
+    if orders.length>0
+        each order in orders 
+            .card.mt-2
+                .card-header
+                    h3 order id: #{order._id}
+                    h5 order date: #{order.createdAt}
+                table.table
+                    thead 
+                        tr 
+                            th Image
+                            th Product Name
+                            th Price 
+                            th Quantity 
+                    tbody 
+                        each item in order.items 
+                            tr 
+                                td 
+                                    img(src=`${item.product.imageUrl}` style="width:80px;")
+                                td  #{item.product.title}
+                                td  #{item.product.price}
+                                td  #{item.quantity}
+
+                    tfoot 
+                        //- tr 
+                        //-     td(colspan="2") #{order.date}
+                        //-     td  
+                        //-         - var total=0;
+                        //-         each item in order.items 
+                        //-             - total += (item.product.price * item.quantity)
+                        //-     td #{total} TL
+                        tr 
+                            th payment Status: #{order.status}
+                            td 
+                            td
+                            td  #{order.totalAmount} TL
+                                
+    else 
+        h2 No Orders 

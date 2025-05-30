@@ -1,0 +1,19 @@
+
+
+
+extends ../layouts/main-layout.pug
+
+block styles 
+
+block content 
+    h3 ADD ADDRESS 
+
+    .card.mt-5 
+
+        .card-header 
+            h4 Phone Number
+        .card-body 
+            form(action="/account/add-phone" method="POST")
+                .row.form-group 
+                    .col.sm-2 
+                        

@@ -1,0 +1,32 @@
+
+
+
+#productCard{
+    background-color: rgb(156, 153, 154);
+    color: red;
+}
+
+
+#productCard .card-title{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+#productCard .card-text{
+    color: black;
+}
+
+#productCard .card-footer{
+    font-size: 15px;
+    font-weight: 900;
+    color: black;
+}
+
+#productCard #btns{
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+}

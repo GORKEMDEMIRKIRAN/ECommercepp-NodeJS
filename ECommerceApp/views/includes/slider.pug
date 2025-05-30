@@ -1,0 +1,24 @@
+
+
+
+#mySlider.carousel.slide(data-ride="carousel")
+    // ===================
+    ol.carousel-indicators
+        li(data-target="mySlider", data-slide-to="0")
+        li(data-target="mySlider", data-slide-to="1").active
+        li(data-target="mySlider", data-slide-to="2")
+    // ===================
+    .carousel-inner
+        .carousel-item.active
+            img.d-block.img-fluid(src="/img/slider1.png", alt="")
+        .carousel-item
+            img.d-block.img-fluid(src="/img/slider2.png", alt="")
+        .carousel-item
+            img.d-block.img-fluid(src="/img/slider3.png", alt="")
+    // ===================
+    a.carousel-control-prev(href="#mySlider", data-slide="prev")
+        span.carousel-control-prev-icon
+    // ===================
+    a.carousel-control-next(href="#mySlider", data-slide="next")
+        span.carousel-control-next-icon
+    // ===================

@@ -1,0 +1,13 @@
+
+
+#adminProductTable{
+    border: 2px solid red;
+    
+}
+
+#adminProductTable #btns{
+    text-align: center;
+    padding: 10px;
+    display: inline;
+    
+}

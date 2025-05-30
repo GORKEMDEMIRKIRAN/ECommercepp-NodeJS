@@ -1,0 +1,32 @@
+
+
+
+
+
+extends ../layouts/main-layout.pug
+
+block styles
+  // Buraya özel stil ekleyebilirsiniz
+
+block content
+  h2 MAIL VERIFY
+  
+  if errorMessage
+    div.alert.alert-danger #{errorMessage}
+  
+  div.card.bg-secondary(style="width:700px")
+    div.card-body
+      form(action="/account/again-verify-email" method="POST")
+        // csurf token istekte almak için
+        input(type="hidden" name="_csrf" value=csrfToken)
+        
+        .row.form-group.mt-2
+          .col-sm-2
+            label.col.col-form-label(for="email") Email
+          .col-sm-10
+            input.form-control(type="text" id="email" name="email")
+        
+        .row.form-group.mt-4
+          .col-sm-2
+            input.btn.btn-primary(type="submit" value="Send Email")
+

@@ -1,0 +1,167 @@
+1|Samsung Galaxy Tab|samsung|4.949 TL|Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB 128GB 8.7" Tablet Mystic Silver|https://productimages.hepsiburada.net/s/531/222-222/110000588596221.jpg
+2|Samsung Galaxy Tab|samsung|26.999 TL|Samsung Galaxy Tab S10+ 12GB 256GB SM-X820|https://productimages.hepsiburada.net/s/777/222-222/110000773433682.jpg
+3|Samsung Galaxy Tab|samsung|7.799 TL|Samsung Galaxy Tab A9 Plus 128 GB 11 inç 1920 x 1200 Tablet Silver|https://productimages.hepsiburada.net/s/512/222-222/110000567367600.jpg
+4|Samsung Galaxy Tab|samsung|3.929 TL|Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB 64GB 8.7" Tablet Graphite|https://productimages.hepsiburada.net/s/473/222-222/110000516178961.jpg
+5|Samsung Galaxy Tab|samsung|36.999 TL|Samsung Galaxy Tab S10 Ultra 12GB 512GB SM-X920|https://productimages.hepsiburada.net/s/777/222-222/110000773400302.jpg
+6|Samsung Galaxy Tab|samsung|14.799 TL|Samsung Galaxy Tab S9 FE+ SM-X610 128 GB 12.4"Mint Tablet|https://productimages.hepsiburada.net/s/466/222-222/110000502821925.jpg
+7|Samsung Galaxy Tab|samsung|5.439 TL|Samsung Galaxy Tab A9+ SM-X210 4GB 64GB 11" Tablet|https://productimages.hepsiburada.net/s/473/222-222/110000516187358.jpg
+8|Samsung Galaxy Tab|samsung|11.599 TL|Samsung Galaxy Tab S9 FE SM-X510 128 GB 10.9" Silver Tablet|https://productimages.hepsiburada.net/s/466/222-222/110000502823381.jpg
+9|Samsung Galaxy Tab|samsung|8.699 TL|Samsung Galaxy Tab S6 Lite (2024) SM-P620 4gb 128GB 10.4" Tablet|https://productimages.hepsiburada.net/s/777/222-222/110000668107640.jpg
+10|Samsung Galaxy Tab|samsung|36.999 TL|Samsung Galaxy Tab S10 Ultra 12GB 512GB SM-X920|https://productimages.hepsiburada.net/s/777/222-222/110000773391655.jpg
+11|Samsung Galaxy Tab|samsung|20.999 TL|Samsung Galaxy Tab S9 8GB Ram 128 GB Depolama 11" Gri Tablet SM-X710|https://productimages.hepsiburada.net/s/439/222-222/110000473117355.jpg
+12|Samsung Galaxy Tab|samsung|9.499 TL|Samsung Galaxy Tab S6 Lite LTE SM-P617 64GB 10.4" Tablet - Dağ Grisi|https://productimages.hepsiburada.net/s/38/222-222/10592959332402.jpg
+13|Samsung Galaxy Tab|samsung|26.999 TL|Samsung Galaxy Tab S10+ 12GB 256GB SM-X820|https://productimages.hepsiburada.net/s/777/222-222/110000773401807.jpg
+14|Samsung Galaxy Tab|samsung|38.999 TL|Samsung Galaxy Tab S9 Ultra 512GB 14.6" Tablet - Bej|https://productimages.hepsiburada.net/s/439/222-222/110000473117351.jpg
+15|Samsung Galaxy Tab|samsung|32.000 TL|Samsung Galaxy Tab S9+ 12GB 256GB 12.4" Tablet - Gri|https://productimages.hepsiburada.net/s/439/222-222/110000473117361.jpg
+16|Samsung Galaxy Tab|samsung|9.599 TL|Samsung Galaxy Tab S6 Lite SM-P613 128GB 10.4" Tablet - Gök Mavisi|https://productimages.hepsiburada.net/s/409/222-222/110000437564183.jpg
+17|Samsung Galaxy Tab|samsung|14.900 TL|Samsung Galaxy Tab S9 FE Wifi 8 GB Ram 256 GB|https://productimages.hepsiburada.net/s/777/222-222/110000629658637.jpg
+18|Samsung Galaxy Tab|samsung|4.549 TL|Samsung Galaxy Tab A7 Lite  3gb ram 32 GB hafıza (Samsung Türkiye Garantili)   renk gray|https://productimages.hepsiburada.net/s/91/222-222/110000033554392.jpg
+19|Samsung Galaxy Tab|samsung|18.500 TL|Samsung Galaxy Tab S7 FE 64GB 12.4" Wifi Tablet Mystic Silver|https://productimages.hepsiburada.net/s/127/222-222/110000077439199.jpg
+20|Samsung Galaxy Tab|samsung|5.199 TL|Samsung Galaxy Tab A8 SM-X200 3GB 32GB 10.5" Tablet Gümüş|https://productimages.hepsiburada.net/s/203/222-222/110000177118127.jpg
+21|Samsung Galaxy Tab|samsung|29.999 TL|Samsung Galaxy Tab S10+ 12GB 512GB SM-X820|https://productimages.hepsiburada.net/s/777/222-222/110000829686413.jpg
+22|Samsung Galaxy Tab|samsung|6.199,90 TL|Samsung Galaxy Tab A8 LTE SM-X207 3GB 32GB 10.5" Tablet Gri|https://productimages.hepsiburada.net/s/162/222-222/110000120329250.jpg
+23|Samsung Galaxy Tab|samsung|25.999 TL|Samsung Galaxy Tab S9 FE+ Wifi 12 GB Ram 256 GB Gri|https://productimages.hepsiburada.net/s/777/222-222/110000629658641.jpg
+24|Samsung Galaxy Tab|samsung|6.655 TL|Samsung Galaxy Tab A9+ Lte Gri 4/64GB SM-X218B|https://productimages.hepsiburada.net/s/777/222-222/110000795015560.jpg
+25|Samsung Galaxy Tab|samsung|14.999 TL|Samsung Galaxy Tab A9+ 8GB/128GB Lte SM-X218 Tablet Grafit|https://productimages.hepsiburada.net/s/517/222-222/110000573365125.jpg
+26|Samsung Galaxy Tab|samsung|9.999,90 TL|Samsung Galaxy Tab S6 Lite SM-P610 64GB 10.4" Tablet - Dağ Grisi|https://productimages.hepsiburada.net/s/38/222-222/10592959856690.jpg
+27|Samsung Galaxy Tab|samsung|30.999 TL|Samsung Galaxy Tab S9 12 GB Ram 256 GB Beige|https://productimages.hepsiburada.net/s/494/222-222/110000544504365.jpg
+28|Samsung Galaxy Tab|samsung|5.469 TL|Samsung Galaxy Tab A9 Lte SM-X117 4/64GB 8.7'' Tablet Gri|https://productimages.hepsiburada.net/s/777/222-222/110000639038511.jpg
+29|Samsung Galaxy Tab|samsung|17.950 TL|Samsung Galaxy Tab A7 SM-T500 32 GB 10.4" Tablet|https://productimages.hepsiburada.net/s/44/222-222/10807342792754.jpg
+30|Galaxy Tab A9|samsung|9.679 TL|Galaxy Tab A9 Plus 8gb 128GB Siyah+Kalem+Kılıf+Şarj Başlık (Samsung Türkiye Garatili)|https://productimages.hepsiburada.net/s/777/222-222/110000913443773.jpg
+31|Samsung Galaxy Tab|samsung|60.762 TL|Samsung Galaxy Tab S8 Ultra SM-X900 256GB 14.6" Tablet|https://productimages.hepsiburada.net/s/178/222-222/110000142713244.jpg
+32|Samsung Galaxy Tab|samsung|29.999 TL|Samsung Galaxy Tab Active4 Pro SM-T638 64 GB 10.1" Siyah Tablet|https://productimages.hepsiburada.net/s/372/222-222/110000389480592.jpg
+33|Galaxy Tab A9|samsung|6.999 TL|Galaxy Tab A9 8 GB Ram 128 GB 8'7 Inç Mystic Blue Tablet + Kılıf (Samsung Türkiye Garantili)|https://productimages.hepsiburada.net/s/777/222-222/110000930502299.jpg
+34|Samsung Galaxy Tab|samsung|15.950 TL|Samsung Galaxy Tab S6 Lite Gök Mavi 1.7ghz 128GB 4gb 10.4'' Tablet SM-P613NZBETUR|https://productimages.hepsiburada.net/s/412/222-222/110000441500341.jpg
+35|Samsung Galaxy Tab|samsung|6.999,90 TL|Samsung Galaxy Tab A6 T280Q 8GB 7" Tablet|https://productimages.hepsiburada.net/s/44/222-222/10807187996722.jpg
+36|Galaxy Tab S9|samsung|14.999 TL|Galaxy Tab S9 Fe 128GB 6gbram + S Pen|https://productimages.hepsiburada.net/s/777/222-222/110000830131154.jpg
+37|Samsung Galaxy Tab|samsung|5.700 TL|Samsung Galaxy Tab A T287 8GB 7" Tablet|https://productimages.hepsiburada.net/s/44/222-222/10816952336434.jpg
+38|Samsung Galaxy Tab|samsung|39.999 TL|Samsung Galaxy Tab Active Pro SM-T547 4 GB 64 GB 10.1" Tablet|https://productimages.hepsiburada.net/s/424/222-222/110000454572008.jpg
+39|Apple iPad A16|apple|16.999 TL|Apple iPad A16 11" 128GB Wi-Fi Tablet Mavi MD4A4TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000950990284.jpg
+40|Apple iPad 10.nesil|apple|14.849 TL|Apple iPad 10.nesil 64GB 10.9" Wi-Fi Tablet Mavi MCM84TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000794358791.jpg
+41|Apple iPad 10.nesil|apple|18.409 TL|Apple iPad 10.nesil 256GB 10.9" Wi-Fi Tablet Mavi MCMF4TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000794852900.jpg
+42|Apple  iPad|apple|59.349 TL|Apple  iPad Pro  M4 Wifi 256GB 13" 7.Nesil Standard Cam - Uzay Siyahı MVX23TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000685751320.jpg
+43|Apple iPad Air|apple|29.999 TL|Apple iPad Air M3 11" 128GB Wi-Fi Mor MCA04TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000951014809.jpg
+44|Apple  iPad|apple|47.499 TL|Apple  iPad Pro Wifi 256GB 11"  Standard Cam - Uzay Siyahı MVV83TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000685746748.jpg
+45|Apple iPad 9.|apple|13.199 TL|Apple iPad 9. Nesil 64GB 10.2" WiFi Tablet - MK2K3TU/A Uzay Grisi|https://productimages.hepsiburada.net/s/120/222-222/110000069569291.jpg
+46|Apple iPad Mini|apple|26.999 TL|Apple iPad Mini 256GB 8.3" Wi-Fi Tablet Uzay Grisi MXNA3TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000794852047.jpg
+47|Apple  iPad|apple|28.000 TL|Apple  iPad Air M2 Wi-Fi 11" 6.Nesil 128GB - Mor MUWF3TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000685740007.jpg
+48|Apple iPad Air|apple|23.999 TL|Apple iPad Air 5. Nesil 10.9" 64GB Wi-Fi Tablet - MM9D3TU/A Pembe|https://productimages.hepsiburada.net/s/191/222-222/110000157838650.jpg
+49|Apple iPad 9.Nesil|apple|16.879 TL|Apple iPad 9.Nesil 256GB  10.2" WiFi Tablet - MK2N3TU/A Uzay Grisi|https://productimages.hepsiburada.net/s/120/222-222/110000069569291.jpg
+50|Apple iPad A16|apple|21.999 TL|Apple iPad A16 11" 256GB Wi-Fi Tablet Pembe MD4P4TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000950989382.jpg
+51|Apple iPad Mini|apple|21.999 TL|Apple iPad Mini 64GB 8.3" WiFi Tablet - MLWL3TU/A Pembe|https://productimages.hepsiburada.net/s/120/222-222/110000069409588.jpg
+52|Apple  iPad|apple|31.819 TL|Apple  iPad Air M2 Wi-Fi  11" 6.Nesil 512GB - Uzay Grisi MUWL3TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000685740042.jpg
+53|Apple iPad Mini|apple|24.999 TL|Apple iPad Mini 256GB 8.3" Wifi Tablet - MLWR3TU/A  Pembe|https://productimages.hepsiburada.net/s/337/222-222/110000083207534.jpg
+54|Apple iPad 10.Nesil|apple|16.700 TL|Apple iPad 10.Nesil 64GB 10.9" Wi-Fi Tablet - MPQ23TU/A Sarı|https://productimages.hepsiburada.net/s/337/222-222/110000294957852.jpg
+55|Apple iPad 9.Nesil|apple|14.869 TL|Apple iPad 9.Nesil 64GB  10.2" WiFi Cellular Tablet- MK493TU/A Gümüş|https://productimages.hepsiburada.net/s/120/222-222/110000069572871.jpg
+56|Apple  iPad|apple|57.180,53 TL|Apple  iPad Pro  M4 Wifi + Cellular 512GB 11"  Standard Cam - Uzay Siyahı MVW33TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000685746730.jpg
+57|Apple  iPad|apple|66.999 TL|Apple  iPad Pro  M4 Wifi 512GB 13" 7.Nesil Standard Cam - Gümüş MVX53TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000685751335.jpg
+58|Apple iPad Air|apple|39.999 TL|Apple iPad Air M3 13" 128GB Wi-Fi Yıldız Işığı MCNK4TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000951069391.jpg
+59|Apple  iPad|apple|40.409,02 TL|Apple  iPad Air  M2 Wi-Fi + Cellular 13"  256GB - Mor MV6Y3TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000685742175.jpg
+60|Apple iPad 10.Nesil|apple|19.689 TL|Apple iPad 10.Nesil 64GB 10.9" Wi-Fi Cellular Tablet - MQ6J3TU/A Gümüş|https://productimages.hepsiburada.net/s/337/222-222/110000294957870.jpg
+61|Apple  iPad|apple|35.999 TL|Apple  iPad Air  M2 Wi-Fi 13"  128GB - Yıldız Işığı MV293TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000685744255.jpg
+62|Apple iPad Air|apple|34.999 TL|Apple iPad Air M3 11" 256GB Wi-Fi Mavi MCA34TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000951013684.jpg
+63|Apple iPad Pro|apple|65.999 TL|Apple iPad Pro 6.Nesil 2TB 12.9" Wi-Fi Tablet - MNXY3TU/A Uzay Grisi|https://productimages.hepsiburada.net/s/337/222-222/110000294957946.jpg
+64|Apple iPad Mini|apple|28.379 TL|Apple iPad Mini 128GB 8.3" Wi-Fi + Cellular Tablet Uzay Grisi MXPN3TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000794995073.jpg
+65|Apple  iPad|apple|38.999 TL|Apple  iPad Air  M2 Wi-Fi 13"  256GB - Yıldız Işığı MV2G3TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000685744279.jpg
+66|Apple iPad Air|apple|24.249 TL|Apple iPad Air 5. Nesil 10.9" 64GB Wi-Fi Cellular Tablet - MM6T3TU/A Pembe|https://productimages.hepsiburada.net/s/191/222-222/110000158446183.jpg
+67|Apple iPad Air|apple|44.999 TL|Apple iPad Air M3 13" 256GB Wi-Fi Yıldız Işığı MCNQ4TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000951059809.jpg
+68|Apple iPad Mini|apple|24.999 TL|Apple iPad Mini 64GB 8.3" WiFi Cellular Tablet - MK8E3TU/A Mor|https://productimages.hepsiburada.net/s/120/222-222/110000069409578.jpg
+69|Apple iPad 10.Nesil|apple|22.750 TL|Apple iPad 10.Nesil 256GB 10.9" Wi-Fi Tablet - MPQ93TU/A Mavi|https://productimages.hepsiburada.net/s/337/222-222/110000294957843.jpg
+70|Apple  iPad|apple|73.999 TL|Apple  iPad Pro  M4 Wifi 1TB 11"  Nano-Texture Cam - Uzay Siyahı MWR63TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000685746739.jpg
+71|Apple iPad A16|apple|24.499 TL|Apple iPad A16 11" 128GB Wi-Fi + Cellular Tablet Mavi MD7G4TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000950989489.jpg
+72|Apple  iPad|apple|39.999 TL|Apple  iPad Air  M2 Wi-Fi 13"  512GB - Mavi MV2K3TU/A|https://productimages.hepsiburada.net/s/777/222-222/110000685744282.jpg
+73|Apple iPad Air|apple|30.999 TL|Apple iPad Air 5. Nesil Wi-Fi Cellular 256GB 10.9" Tablet Uzay Grisi MM713TU/A|https://productimages.hepsiburada.net/s/337/222-222/110000182719848.jpg
+74|Apple iPad Mini|apple|14.500 TL|Apple iPad Mini 4 128GB 7.9" Retina Tablet - Gri MK9N2TU/A|https://productimages.hepsiburada.net/s/33/222-222/10390478651442.jpg
+75|Lenovo Tab M11|lenovo|7.599 TL|Lenovo Tab M11 8gb 128GB 11" Wuxga Tablet ZADA0327TR|https://productimages.hepsiburada.net/s/777/222-222/110000764356401.jpg
+76|Lenovo Tab M9|lenovo|3.699,60 TL|Lenovo Tab M9 4GB 64GB 9" Hd IPS Tablet|https://productimages.hepsiburada.net/s/424/222-222/110000454620713.jpg
+77|Lenovo Tab Plus|lenovo|10.999 TL|Lenovo Tab Plus 8gb 256GB 11.5" 2k Jbl Hoparlörlü Tablet + Kılıf ZADX0152TR|https://productimages.hepsiburada.net/s/777/222-222/110000866996322.jpg
+78|Lenovo Tab Plus|lenovo|9.399 TL|Lenovo Tab Plus 8GB 128GB 11.5" Dahili JBL Hoparlörlü + Kılıf ZADX0144TR|https://productimages.hepsiburada.net/s/777/222-222/110000751135603.jpg
+79|Lenovo Tab K11|lenovo|9.999 TL|Lenovo Tab K11 8gb 128GB 11" Wuxga Lte Tablet + Klavye + Kalem ZAEC0011TR|https://productimages.hepsiburada.net/s/777/222-222/110000828530616.jpg
+80|Lenovo Tab P12|lenovo|18.499 TL|Lenovo Tab P12 8gb 256GB 12.7" 3k Jbl Hoparlörlü Tablet + Klavye + Kalem ZACH0218TR|https://productimages.hepsiburada.net/s/777/222-222/110000797573893.jpg
+81|Lenovo Tab 4GB|lenovo|5.199 TL|Lenovo Tab 4GB 128GB 10.1" WUXGA Tablet + Kılıf ZAEH0039TR|https://productimages.hepsiburada.net/s/777/222-222/110000913411214.jpg
+82|Lenovo Tab M11|lenovo|6.999 TL|Lenovo Tab M11 TB330XU 11" 4gb 128GB Wuxga Wifi + Lte Tablet ZADB0231TR Lenovo Tab Pen Hediye (Sim Kart Uyumlu)|https://productimages.hepsiburada.net/s/777/222-222/110000661829023.jpg
+83|Lenovo Tab M10|lenovo|6.298 TL|Lenovo Tab M10 4 GB 64 GB 10.1" WUXGA Tablet + Kılıf ZAAE0117TR|https://productimages.hepsiburada.net/s/495/222-222/110000546267431.jpg
+84|Lenovo Tab M8|lenovo|4.499 TL|Lenovo Tab M8 TB-8505F 32GB 8" IPS Tablet Gri ZA5G0100TR|https://productimages.hepsiburada.net/s/38/222-222/10577877631026.jpg
+85|Lenovo Tab M10|lenovo|4.719,04 TL|Lenovo Tab M10 (3rd Gen) 4gb 64 GB Depolama 10,1" Wuxga Tablet - ZAAG0003TR|https://productimages.hepsiburada.net/s/433/222-222/110000466273452.jpg
+86|Lenovo Tab M9|lenovo|4.950 TL|Lenovo Tab M9 ZAC40070TR TB310FU 4gb 64GB Android 12 Arctic Grey Tablet|https://productimages.hepsiburada.net/s/495/222-222/110000546057460.jpg
+87|Lenovo Tab P11|lenovo|16.825 TL|Lenovo Tab P11 6 GB 128 GB 11.5" 2K Tablet + Klavye + Kalem ZABF0302TR|https://productimages.hepsiburada.net/s/377/222-222/110000395677065.jpg
+88|Lenovo Yoga Tab|lenovo|39.999 TL|Lenovo Yoga Tab Plus 16GB 512GB 12.7" 3k 900NITS 144Hz Tablet + Klavye + Kalem ZAEG0058TR|https://productimages.hepsiburada.net/s/777/222-222/110000866996331.jpg
+89|Tab M11 8gb|lenovo|11.299 TL|Tab M11 8gb 128GB Sım Kart Uyumlu 11INÇ Tablet|https://productimages.hepsiburada.net/s/777/222-222/110000846036689.jpg
+90|Lenovo Tab P12|lenovo|15.699 TL|Lenovo Tab P12 TB370FU 8GB 128GB 3K 12.7" Wifi Tablet ZACH0125TR|https://productimages.hepsiburada.net/s/488/222-222/110000535784225.jpg
+91|Lenovo Tab M11|lenovo|10.050 TL|Lenovo Tab M11 8gb 128GB 11" Wuxga 4g Lte ZADB0335TR|https://productimages.hepsiburada.net/s/777/222-222/110000764356507.jpg
+92|Lenovo Tab P12|lenovo|15.850 TL|Lenovo Tab P12 8GB 256GB 12.7" + Kalem ZACH0207TR|https://productimages.hepsiburada.net/s/777/222-222/110000726893154.jpg
+93|Lenovo Legion Tab|lenovo|28.999 TL|Lenovo Legion Tab 12GB 256GB 8.8" 2.5k 900NITS 165Hz Tablet + Kılıf + Ekran Filmi ZAEF0037TR|https://productimages.hepsiburada.net/s/777/222-222/110000866971567.jpg
+94|Lenovo Yoga Tab|lenovo|11.285,01 TL|Lenovo Yoga Tab 11 YT-J706F 4GB 128GB 11" Tablet Gri ZA8W0065TR|https://productimages.hepsiburada.net/s/229/222-222/110000210644155.jpg
+95|Lenovo Idea Tab|lenovo|19.549 TL|Lenovo Idea Tab Pro 8gb 256GB 12.7" 3k 400NITS 144Hz Tablet + Kalem ZAE40060TR|https://productimages.hepsiburada.net/s/777/222-222/110000866975487.jpg
+96|Lenovo Tab P12|lenovo|15.699 TL|Lenovo Tab P12 TB370FU 8gb + 128GB 3k 12.7'' Wifi Tablet ZACL0030TR + Lenovo Tab Pen Plus Hediyeli|https://productimages.hepsiburada.net/s/530/222-222/110000587966512.jpg
+97|Lenovo Tab M10|lenovo|7.090 TL|Lenovo Tab M10 Plus (3rd Gen) 2023 4GB 128GB 10.6" HD IPS Tablet ZAAM0182TR|https://productimages.hepsiburada.net/s/495/222-222/110000546267432.jpg
+98|Lenovo Tab P11|lenovo|10.271,05 TL|Lenovo Tab P11 Plus TB-J616F 6GB 128GB 11" Tablet Gri ZA940086TR|https://productimages.hepsiburada.net/s/229/222-222/110000209597559.jpg
+99|Lenovo Tab M10|lenovo|5.199 TL|Lenovo Tab M10 TB328FU 4GB 64GB 10.1" Tablet Gri ZAAE0012TR|https://productimages.hepsiburada.net/s/367/222-222/110000383420616.jpg
+100|Lenovo Tab M11|lenovo|8.699 TL|Lenovo Tab M11 4GB 128GB 11" 4G LTE + Kılıf + Kalem ZADB0041TR|https://productimages.hepsiburada.net/s/777/222-222/110000726888952.jpg
+101|Lenovo Tab M11|lenovo|17.165 TL|Lenovo Tab M11 TB330FU 4GB 128GB Depolama 11" IP52 Wuxga Tablet - ZADA0056TR + Lenovo Tab Pen Kalem|https://productimages.hepsiburada.net/s/777/222-222/110000665514679.jpg
+102|Lenovo Tab M9|lenovo|4.249 TL|Lenovo Tab M9 9.0 3gb 32GB Hd IPS Android Gri ZAC40013TR Tablet|https://productimages.hepsiburada.net/s/443/222-222/110000477405205.jpg
+103|Lenovo Tab M10|lenovo|6.975 TL|Lenovo Tab M10 3GB 32GB 10.1" Gri Tablet ZAAE0015TR|https://productimages.hepsiburada.net/s/367/222-222/110000383418461.jpg
+104|Tab M7 TB-7305F|lenovo|4.999 TL|Tab M7 TB-7305F 1GB + 16GB 7" Wi-Fi Gri Tablet - ZA550080TR|https://productimages.hepsiburada.net/s/171/222-222/110000133773402.jpg
+105|Lenovo Tab M10|lenovo|22.230 TL|Lenovo Tab M10 TB-X605F 32GB 10.1" IPS Tablet Beyaz ZA480098TR|https://productimages.hepsiburada.net/s/33/222-222/10398917853234.jpg
+106|Lenovo Tab M9|lenovo|7.598 TL|Lenovo Tab M9 3gb 32GB 9" Tablet Gri - ZAC30136TR|https://productimages.hepsiburada.net/s/432/222-222/110000464885943.jpg
+107|Lenovo Tab P11|lenovo|39.277 TL|Lenovo Tab P11 (2nd Gen) 6GB 128GB 11.5" 2K (2000X1200) IP52 IPS Tablet - ZABL0041TR + Lenovo Precision Pen 2 Kalem + Lenovo (2nd Gen) Klavye|https://productimages.hepsiburada.net/s/777/222-222/110000644999854.jpg
+108|Lenovo Tab P11|lenovo|9.833 TL|Lenovo Tab P11 11.5" 2k IPS 400NITS Medıatek Helio G99 6gb 128G Android 12 Storm Grey Tablet ZABF0398TR|https://productimages.hepsiburada.net/s/473/222-222/110000515613923.jpg
+109|Lenovo TAB P11|lenovo|7.999 TL|Lenovo TAB P11 TB-J606F ZA820003TR 11" 4GB 64GB 2K-IPS Tablet|https://productimages.hepsiburada.net/s/111/222-222/110000058616306.jpg
+110|Lenovo Tab M11|lenovo|8.550 TL|Lenovo Tab M11 4 GB 128 GB 11" WUXGA Tablet ZADA0210TR|https://productimages.hepsiburada.net/s/777/222-222/110000653671734.jpg
+111|Huawei Matepad |huawei|5.899 TL|Huawei Matepad  SE 11" 6GB 128GB Gri|https://productimages.hepsiburada.net/s/777/222-222/110000870706882.jpg
+112|Huawei Matepad 12X|huawei|22.469 TL|Huawei Matepad 12X 12.0" Papermatte Edition 12GB 256GB Yeşil + Klavye|https://productimages.hepsiburada.net/s/777/222-222/110000780807919.jpg
+113|Huawei Matepad 11.5"|huawei|9.499 TL|Huawei Matepad 11.5" 6GB 128GB Uzay Grisi + Klavye|https://productimages.hepsiburada.net/s/777/222-222/110000830690472.jpg
+114|Huawei Matepad Pro|huawei|30.499 TL|Huawei Matepad Pro 12.2" Papermatte Edition 12GB 512GB Altın + Klavye|https://productimages.hepsiburada.net/s/777/222-222/110000780807912.jpg
+115|Huawei Matepad 11.5S|huawei|14.470 TL|Huawei Matepad 11.5S Papermatte Edition 8GB 256GB Gri + Klavye|https://productimages.hepsiburada.net/s/777/222-222/110000742573520.jpg
+116|Huawei Matepad 11.5"|huawei|13.850 TL|Huawei Matepad 11.5" Papermatte Edition 8GB 256GB Uzay Grisi + Klavye|https://productimages.hepsiburada.net/s/777/222-222/110000830668738.jpg
+117|Huawei Matepad 12X|huawei|17.999 TL|Huawei Matepad 12X 12.0" 8GB 256GB Beyaz + Klavye|https://productimages.hepsiburada.net/s/777/222-222/110000780807921.jpg
+118|Huawei Matepad 11.5|huawei|11.899 TL|Huawei Matepad 11.5 PaperMatte Edition 8GB 256GB Tablet|https://productimages.hepsiburada.net/s/458/222-222/110000493576228.jpg
+119|Huawei Matepad 11.5|huawei|13.599 TL|Huawei Matepad 11.5 8GB 128GB 11.5" Tablet|https://productimages.hepsiburada.net/s/430/222-222/110000461971707.jpg
+120|Huawei MatePad T8|huawei|3.120 TL|Huawei MatePad T8 32GB 8" IPS Tablet Mavi|https://productimages.hepsiburada.net/s/40/222-222/10653734895666.jpg
+121|Huawei MatePad SE|huawei|5.490 TL|Huawei MatePad SE 4GB 128GB 10.4" Tablet Siyah|https://productimages.hepsiburada.net/s/337/222-222/110000343412408.jpg
+122|Matepad 11.5 Papermatte|huawei|15.889 TL|Matepad 11.5 Papermatte Edition 8gb 256GB Gri+Klavye+Kalem|https://productimages.hepsiburada.net/s/777/222-222/110000859171852.jpg
+123|Huawei Matepad Pro|huawei|42.450 TL|Huawei Matepad Pro 13.2 12GB 256GB 13.2" Tablet|https://productimages.hepsiburada.net/s/543/222-222/110000603419510.jpg
+124|Huawei Matepad Se|huawei|8.760,22 TL|Huawei Matepad Se 11" 4gb 128GB Lte (Simkartlı) Gri Tablet+Kalem Şarj Başlık (Huawei Türkiye Garantili)|https://productimages.hepsiburada.net/s/777/222-222/110000935045775.jpg
+125|Matepad 11.5 6/128GB|huawei|9.000 TL|Matepad 11.5 6/128GB Tablet Uzay Grisi 53013TTB|https://productimages.hepsiburada.net/s/777/222-222/110000741367840.jpg
+126|Huawei Matepad 11.5S|huawei|15.502,41 TL|Huawei Matepad 11.5S 8GB 256GB Gri + Klavye|https://productimages.hepsiburada.net/s/777/222-222/110000745261261.jpg
+127|Matepad 11.5" Papermatte|huawei|16.720,11 TL|Matepad 11.5" Papermatte Edition 8gb 256GB Uzay Grisi Tablet+Klavye+Kalem+Kulaklık|https://productimages.hepsiburada.net/s/777/222-222/110000858020908.jpg
+128|Huawei MatePad 11|huawei|12.999 TL|Huawei MatePad 11 128GB Tablet +Klavye|https://productimages.hepsiburada.net/s/232/222-222/110000213499467.jpg
+129|Huawei Matepad |huawei|6.899 TL|Huawei Matepad  SE 11" 6GB 128GB Gri|https://productimages.hepsiburada.net/s/777/222-222/110000743086401.jpg
+130|Huawei MatePad 10.4|huawei|10.999 TL|Huawei MatePad 10.4 4GB 128GB Tablet+Klavye|https://productimages.hepsiburada.net/s/241/222-222/110000225649575.jpg
+131|Huawei Matepad 11|huawei|13.199 TL|Huawei Matepad 11 2023 6GB 128GB 11'' Tablet+Klavye|https://productimages.hepsiburada.net/s/411/222-222/110000440780789.jpg
+132|Huawei Matepad Se|huawei|4.099 TL|Huawei Matepad Se 3gb 32GB 10.4" Siyah Tablet|https://productimages.hepsiburada.net/s/379/222-222/110000397694607.jpg
+133|Huawei Matepad 11|huawei|19.450 TL|Huawei Matepad 11 128 GB|https://productimages.hepsiburada.net/s/311/222-222/110000304136108.jpg
+134|Huawei Matepad Air|huawei|15.799 TL|Huawei Matepad Air 8GB 128GB 11.5" Tablet+Klavye Siyah|https://productimages.hepsiburada.net/s/431/222-222/110000462770568.jpg
+135|Huawei Matepad Se|huawei|5.199 TL|Huawei Matepad Se 4 GB 64 GB 10.4" Tablet|https://productimages.hepsiburada.net/s/428/222-222/110000459843737.jpg
+136|Huawei Matepad 11.5S|huawei|15.899 TL|Huawei Matepad 11.5S Papermatte Edition 8GB 256GB Gri +  Klavye|https://productimages.hepsiburada.net/s/777/222-222/110000960023903.jpg
+137|Huawei Matepad 11.5|huawei|20.950 TL|Huawei Matepad 11.5 8gb 128GB Tablet+Klavye+Kalem (Huawei Türkiye Garantili)|https://productimages.hepsiburada.net/s/556/222-222/110000618557227.jpg
+138|Huawei MatePad 10.4|huawei|8.990 TL|Huawei MatePad 10.4 4GB 64GB Tablet|https://productimages.hepsiburada.net/s/186/222-222/110000151998101.jpg
+139|Huawei Huaweı Matepad|huawei|21.950 TL|Huawei Huaweı Matepad 11 - Gri - 6gb + 128GB (Klavye + M-Pencil) Hediyeli|https://productimages.hepsiburada.net/s/294/222-222/110000283631466.jpg
+140|Matepad 11.5 Papermatte|huawei|16.989 TL|Matepad 11.5 Papermatte Edition 8gb 256GB Gri Tablet+Klavye+Kalem +Mouse+Şarj Başlık|https://productimages.hepsiburada.net/s/777/222-222/110000930537981.jpg
+141|Huawei Matepad 11.5|huawei|13.354,11 TL|Huawei Matepad 11.5 Papermatte Edition 8gb 256GB Gri+Klavye+Şarj Başlık|https://productimages.hepsiburada.net/s/777/222-222/110000930489925.jpg
+142|Matepad Se 11"|huawei|8.888 TL|Matepad Se 11" 6gb 128GB Gri Tablet + Kulaklık (Huawei Türkiye Garantili)|https://productimages.hepsiburada.net/s/777/222-222/110000807894899.jpg
+143|Matepad 11.5 Papermatte|huawei|11.939 TL|Matepad 11.5 Papermatte Edition 8gb 256GB Gri Tablet|https://productimages.hepsiburada.net/s/777/222-222/110000859027377.jpg
+144|Huawei Matepad 12X|huawei|26.499 TL|Huawei Matepad 12X 12GB 256GB 12INCH- Emuı Tablet|https://productimages.hepsiburada.net/s/777/222-222/110000968267991.jpg
+145|Huaweı Matepad 12X|huawei|29.699 TL|Huaweı Matepad 12X 12/256 GB Bundle Tablet Yeşil|https://productimages.hepsiburada.net/s/777/222-222/110000835805420.jpg
+146|Matepad 11.5”s 8+256GB|huawei|18.689 TL|Matepad 11.5”s 8+256GB Papermatte Edition Tablet+Klavye+Kalem|https://productimages.hepsiburada.net/s/777/222-222/110000849091349.jpg
+147|HONOR Pad X9|honor|5.399 TL|HONOR Pad X9 4GB 128GB WiFi 11.5'' Uzay Gri Tablet|https://productimages.hepsiburada.net/s/437/222-222/110000469372233.jpg
+148|Honor Pad X8A|honor|4.999 TL|Honor Pad X8A 4gb 128GB Wi-Fi 11 Inç IPS Gri Tablet|https://productimages.hepsiburada.net/s/777/222-222/110000790870165.jpg
+149|Honor Magic Pad|honor|27.999 TL|Honor Magic Pad 2 12GB 256GB 12.3" Siyah Tablet + Klavyeli Kılıf + Kalem|https://productimages.hepsiburada.net/s/777/222-222/110000854239708.jpg
+150|HONOR Pad 9|honor|11.299 TL|HONOR Pad 9 8GB 256GB 12.1" Tablet + Klavyeli Kılıf (Honor Türkiye Garantili)|https://productimages.hepsiburada.net/s/777/222-222/110000640526450.jpg
+151|Honor Pad V9|honor|17.999 TL|Honor Pad V9 8GB 256GB Imax Enhanced + Kılıf + Kalem|https://productimages.hepsiburada.net/s/777/222-222/110000940892768.jpg
+152|Pad 9 8gb|honor|18.849 TL|Pad 9 8gb 256GB Wifi 12" Gri Tablet + Bluetooth Klavye + Kalem|https://productimages.hepsiburada.net/s/777/222-222/110000887621573.jpg
+153|HONOR Pad 8|honor|17.601 TL|HONOR Pad 8 8GB 256GB Wifi 12" Mavi Tablet|https://productimages.hepsiburada.net/s/509/222-222/110000563039742.jpg
+154|Honor Padx8 Lite|honor|5.750 TL|Honor Padx8 Lite 3+32 Beyaz|https://productimages.hepsiburada.net/s/427/222-222/110000458210810.jpg
+155|HONOR Pad X8|honor|5.199 TL|HONOR Pad X8 4GB 64GB Wifi 10.1" IPS Mavi Tablet|https://productimages.hepsiburada.net/s/444/222-222/110000478142961.jpg
+156|Honor Pad X8|honor|10.018 TL|Honor Pad X8 Mediatek 3gb Ram 32GB 10.1" Nane Yeşili Tablet|https://productimages.hepsiburada.net/s/504/222-222/110000558593337.jpg
+157|Honor Pad 9|honor|9.999 TL|Honor Pad 9 8gb 128GB Wifi 12" Gri Tablet 5301AHLD|https://productimages.hepsiburada.net/s/777/222-222/110000941143104.jpg
+158|Casper VIA L40|casper|5.799 TL|Casper VIA L40 8GB RAM 128GB 10.4" FHD Tablet|https://productimages.hepsiburada.net/s/395/222-222/110000420338645.jpg
+159|Casper VIA S40|casper|4.809 TL|Casper VIA S40 4GB RAM 128GB 10.4" FHD Tablet|https://productimages.hepsiburada.net/s/395/222-222/110000420338805.jpg
+160|CASPER VİA S50|casper|7.499 TL|CASPER VİA S50|https://productimages.hepsiburada.net/s/777/222-222/110000881786016.jpg
+161|Casper VIA.S40-A 10.36"|casper|6.750 TL|Casper VIA.S40-A 10.36" IPS 4GB/128GB Tablet|https://productimages.hepsiburada.net/s/515/222-222/110000570585191.jpg
+162|Casper VIA L50|casper|8.999 TL|Casper VIA L50 8GB RAM 128GB 11" 4.5G FHD+ Tablet|https://productimages.hepsiburada.net/s/777/222-222/110000859959034.jpg
+163|CASPER VIA.S30 4GB|casper|23.308 TL|CASPER VIA.S30 4GB 64GB 10" FHD TABLET|https://productimages.hepsiburada.net/s/176/222-222/110000140245224.jpg
+164|Casper Vıa S48|casper|10.559 TL|Casper Vıa S48 /3GB/32GB 8 Inç IPS /2.0 GHz Android Tablet Gri|https://productimages.hepsiburada.net/s/205/222-222/110000180084021.jpg
+165|VIA S50 4GB|casper|7.145 TL|VIA S50 4GB RAM 128GB 11" FHD+ Tablet|https://productimages.hepsiburada.net/s/777/222-222/110000846541046.jpg
+166|VIA L50 8GB|casper|10.499 TL|VIA L50 8GB RAM 128GB 11" FHD+ Tablet|https://productimages.hepsiburada.net/s/777/222-222/110000854176001.jpg
+167|Poco Pad 256|poco|11.399 TL|Poco Pad 256 GB 8 GB Ram (Poco Türkiye Garantili)|https://productimages.hepsiburada.net/s/777/222-222/110000712905452.jpg

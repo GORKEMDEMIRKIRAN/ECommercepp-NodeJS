@@ -1,0 +1,60 @@
+
+
+extends ../layouts/main-layout.pug
+
+
+
+block styles
+    
+
+
+block content
+
+    form(action="/admin/edit-product", method="POST")
+
+        // csurf token istekte almak için
+        input(type="hidden",name="_csrf",value=`${csrfToken}`)
+
+        //====================================================================
+        // gelen product bilgisinin id'sini value yükleyeceğiz.
+        // edit butonu ile product id değerini alıyoruz.
+        input(type="hidden" name="productId" value=`${product.id}`)
+        //====================================================================
+    
+        .row.form-group
+            label.col-sm-2.col-form-label(for="name") Name
+            .col-sm-10
+                input.form-control(type="text", id="name", name="name" value=`${product.name}`)
+        // =================
+        .row.form-group
+            label.col-sm-2.col-form-label(for="price") Price
+            .col-sm-10
+                input.form-control(type="text", id="price", name="price" value=`${product.price}`)
+        // =================
+        .row.form-group
+            label.col-sm-2.col-form-label(for="imageUrl") Image
+            .col-sm-10
+                input.form-control(type="text", id="imageUrl", name="imageUrl" value=`${product.imageUrl}`)
+        // ================= 
+        .row.form-group.my-2
+            // select içindeki name anahtarını post ile göndericektir.
+            // value seçildiğinde sunucuya gönderilecek olan gerçek değerdir.
+            // select(name="select")
+            //     each category in categories
+            //        option(value=`${category._id}`) #{category.name}
+            .col-sm-4.col-form-label 
+                label(for="categoryId") Category
+            .col-sm-8
+                each category in categories
+                    .row
+                        label #{category.name}
+                        input(type="checkbox", name="categoryIds" value=`${category._id}` checked=category.selected)
+        // =================
+        .row.form-group
+            label.col-sm-2.col-form-label(for="description") Description
+            .col-sm-10
+                input.form-control(type="text", id="description", name="description" value=`${product.description}`)
+        // =================    
+        .row.form-group.mt-2
+            .col-sm-10
+                input.btn.btn-primary(type="submit", value="Save Product")

@@ -1,0 +1,45 @@
+
+
+
+
+extends ../layouts/main-layout.pug
+
+block styles 
+
+block content 
+
+    if errorMessage 
+        div.alert.alert-danger #{errorMessage}
+
+    h2 REGISTER
+
+    div.card.bg-secondary(style="width:700px")
+        div.card-body
+            form(action="/account/register" method="POST")
+
+                // csurf token istekte almak için
+                input(type="hidden",name="_csrf",value=`${csrfToken}`)
+                
+                .row.form-group 
+                    .col-sm-2
+                        label.col.col-form-label(for="name") User Name 
+                    .col-sm-10
+                        input.form-control(type="text",id="name",name="name")
+
+                .row.form-group.mt-2
+                    .col-sm-2
+                        label.col.col-form-label(for="email") User Email 
+                    .col-sm-10
+                        input.form-control(type="text",id="email",name="email")
+                
+                .row.form-group.mt-2 
+                    .col-sm-2 
+                        label.col.col-form-label(for="password") User Password 
+                    .col-sm-10 
+                        input.form-control(type="text",id="password",name="password")
+
+                .row.form-group.mt-4
+                    .col-sm-10
+                        input.btn.btn-primary(type="submit",value="Register")
+            
+

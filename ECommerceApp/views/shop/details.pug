@@ -1,0 +1,22 @@
+
+
+
+extends ../layouts/main-layout.pug
+
+include ../mixins/createProduct.pug
+
+block content
+    h1 Details
+    .container
+        .card 
+            .row
+                .col-md-4 
+                    img(src=product.imageUrl, style="height:auto;width:400px;").img-fluid
+                .col-md-8
+                    .card-body 
+                        h4 #{product.name}
+                        p.card-text #{product.price} TL
+                        p.card-text #{product.description}
+
+                    .card-footer
+                        a.btn.btn-outline-primary Add To Cart

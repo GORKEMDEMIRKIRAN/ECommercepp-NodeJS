@@ -1,0 +1,11 @@
+
+
+
+#adminCategoryTable{
+    border:2px solid red;
+}
+#adminCategoryTable #btns{
+    text-align: center;
+    padding: 10px;
+    display: inline;
+}

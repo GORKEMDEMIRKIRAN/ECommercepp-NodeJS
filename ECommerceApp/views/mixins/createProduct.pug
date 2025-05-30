@@ -1,0 +1,25 @@
+
+
+
+mixin createProduct(product)
+    .col
+        .card(id="productCard")
+            .card-header
+                img.card-img-top(src=product.imageUrl, alt=`${product.name}`)
+            .card-body
+                h4.card-title
+                    a(href=`/shop/details/${product.id}`) #{product.name}
+                p.card-text #{product.description}
+                small.text-muted
+                    i.fa.fa-try #{product.price}
+            .card-footer
+                .row
+                    .col(id="btns")
+                        a.btn.btn-warning.btn-sm(href=`/shop/details/${product.id}`) Details
+                        
+                        form(action='/shop/cart' method='POST')
+                            input(type="hidden" name="_csrf" value=csrfToken)
+                            input(type='hidden' name='productId' value=`${product.id}`)
+                            button(type='submit').btn.btn-primary.btn-sm.ml-3 Add To Cart
+
+                     

@@ -1,0 +1,61 @@
+
+
+
+class User{
+    constructor(_id,name,email,password,
+        isEmailVerified,emailVerificationToken,emailVerificationExpires,
+        passwordVerificationToken,passwordVerificationExpires,
+        phoneNumberVerificationToken,phoneNumberVerificationExpires,
+        role,cart,sex,addresses,cards,phoneNumber){
+        this.id=_id;
+        this.name=name;
+        this.email=email;
+        this.password=password;
+        this.isEmailVerified=isEmailVerified;
+        this.emailVerificationToken=emailVerificationToken,
+        this.emailVerificationExpires=emailVerificationExpires,
+        this.passwordVerificationToken=passwordVerificationToken,
+        this.passwordVerificationExpires=passwordVerificationExpires,
+        this.phoneNumberVerificationToken=phoneNumberVerificationToken,
+        this.phoneNumberVerificationExpires=phoneNumberVerificationExpires,
+        //-------------------------------
+        this.role=role;
+        //-------------------------------
+        this.cart=cart?cart:{};
+        this.cart.items=[];
+        //-------------------------------
+        this.sex=sex?sex:'no';
+        //-------------------------------
+        this.addresses=addresses?addresses:{};
+        this.addresses.items=[];
+        //-------------------------------
+        this.cards=cards?cards:{};
+        this.cards.items=[];
+        //-------------------------------
+        this.phoneNumber=phoneNumber?phoneNumber:'no';
+        //-------------------------------
+    }
+    toJSON(){
+        return{
+            id:this.id,
+            name:this.name,
+            email:this.email,
+            password:this.password,
+            isEmailVerified:this.isEmailVerified,
+            emailVerificationToken:this.emailVerificationToken,
+            emailVerificationExpires:this.emailVerificationExpires,
+            passwordVerificationToken:this.passwordVerificationToken,
+            passwordVerificationExpires:this.passwordVerificationExpires,
+            phoneNumberVerificationToken:this.phoneNumberVerificationToken,
+            phoneNumberVerificationExpires:this.phoneNumberVerificationExpires,
+            role:this.role,
+            cart:this.cart,
+            sex:this.sex,
+            addresses:this.addresses,
+            cards:this.cards,
+            phoneNumber:this.phoneNumber
+        }
+    }
+}
+
+module.exports=User;

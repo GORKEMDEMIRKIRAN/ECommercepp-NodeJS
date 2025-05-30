@@ -1,0 +1,64 @@
+
+
+
+extends ../layouts/main-layout.pug
+
+block styles 
+
+block content 
+    h2 PROFILE INFORMATION
+
+    .card.mt-5 
+        .card-header
+            h4 User Info
+        .card-body 
+            .row.form-group 
+                label.col.col-form-label(for="name") #{user.name}
+            .row.form-group 
+                label.col.col-form-label(for="email") #{user.email}
+            .row.form-group 
+                label.col.col-form-label(for="sex") #{user.sex}
+
+            .row.form-group.mt-2 
+                .col-sm-2 
+                    a(href='/account/add-phone').btn.btn-secondary Change User Info
+
+
+    .card.mt-5 
+        .card-header 
+            h4 Phone Number
+        .card-body 
+            .row.form-group.mb-2 
+                label.col.col-form-label(for="phoneNumber") #{user.phoneNumber}
+            .col-sm-2 
+                a(href='/account/add-phone').btn.btn-secondary Add Phone Number
+
+    .card.mt-5
+        .card-header 
+            h4 Addresses
+        .card-body
+            .row.form-group.mb-2 
+                label.col.col-form-label(for="phoneNumber") #{user.addresses}
+                each address in user.addresses 
+                    .card 
+                        .card-header 
+                            h3 #{address.main}
+                        .card-body 
+                            label #{address.city}
+                            label #{address.country}
+            .col-sm-2
+                a(href='/account/add-address').btn.btn-secondary Add Adress
+
+    .card.mt-5 
+        .card-header 
+            h4 Password 
+        .card-body
+            .col-sm-2 
+                a(href='/account/reset-password').btn.btn-secondary Reset Password 
+
+    .card.my-5 
+        .card-header 
+            h4 Cards
+        .card-body 
+            .col-sm-2 
+                a(href='/account/add-card').btn.btn-secondary Add Card

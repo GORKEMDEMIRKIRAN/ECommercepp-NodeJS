@@ -1,0 +1,58 @@
+
+
+extends ../layouts/main-layout.pug
+
+block styles
+    link(rel="stylesheet", href="/css/products.css")
+
+
+
+
+
+block content
+
+
+    // action her zaman gelmiyebilir bu yüzden "endefined" olduğunuda kontrol etmeliyiz.
+    if (action !== "undefined" && action === "edit")
+        div.alert.alert-success The Product has been updated.
+    if (action !== "undefined" && action === "delete")
+        div.alert.alert-danger The Product has been deleted.
+
+    if productList.length > 0
+        table.table.table-bordered(id="adminProductTable")
+            thead
+                tr
+                    th ProductId
+                    th categoryIds
+                    th Image 
+                    th Product Name
+                    th Price           
+                    th Settings
+            tbody 
+                each product in productList
+                    tr 
+                        td #{product.id}
+                        td #{product.categories}
+                        td  
+                            img(src=product.imageUrl, alt="" style="height:200px;")
+                        td #{product.name}
+                        td #{product.price} TL
+                        td
+                            div(id="btns")
+                                // Ürünlerin listelendiği sayfadan seçili ürünün id değeri details ve edit sayfasının url gönderiliyor.
+                                p
+                                    a.btn.btn-primary.btn-sm(href=`/shop/details/${product.id}`) Details
+                                p
+                                    a.btn.btn-warning.btn-sm(href=`/admin/edit-product/${product.id}`) Edit
+                            
+                                // delete işlemi için direkt buradan form ile göndereceğiz.
+                                form(action="/admin/delete-product" method="POST")
+                                
+                                    // csurf token istekte almak için
+                                    input(type="hidden",name="_csrf",value=`${csrfToken}`)
+
+
+                                    input(type="hidden" name="productId" value=`${product.id}`)
+                                    button(type="submit").btn.btn-danger.btn-sm Delete                    
+    else 
+        h1 No Products
