@@ -13,7 +13,21 @@ block content
         div.alert.alert-danger #{errorMessage}
 
 
-    h2 LOGIN
+    div.card.bg-warning(style='width:500px').mt-2
+        div.card-body
+            .row 
+                .col    
+                    h5 Admin user email:
+                .col 
+                    h6 gorkem@example.com
+            .row 
+                .col    
+                    h5 Admin user password:
+                .col 
+                    h6 123456
+
+
+    h2.mt-2 LOGIN
     div.card.bg-secondary(style="width:700px").mt-2
         div.card-body
             form(action="/auth/login" method="POST")
