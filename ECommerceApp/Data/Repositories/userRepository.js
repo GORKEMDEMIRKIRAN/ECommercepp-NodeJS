@@ -1,9 +1,11 @@
 
 
 
+
 const UserModel=require('../Models/userModel');
 const User=require('../../Models/User');
 const mongoose=require('mongoose');
+const logger = require('../../config/logger');
 
 class userRepository{
     //============================================
@@ -26,32 +28,7 @@ class userRepository{
             user.role
         ));
     }
-    //============================================
-    async UserByUserName(userName){
-        const user=await UserModel.findOne({name:userName});
-        if(!user){
-            return null;
-        }
-        return new User(
-            user.id,
-            user.name,
-            user.email,
-            user.password,
-            user.isEmailVerified,
-            user.emailVerificationToken,
-            user.emailVerificationExpires,
-            user.passwordVerificationToken,
-            user.passwordVerificationExpires,
-            user.phoneNumberVerificationToken,
-            user.phoneNumberVerificationExpires,
-            user.role,
-            user.cart,
-            user.sex,
-            user.addresses,
-            user.cards,
-            user.phoneNumber
-        );
-    }
+
     //============================================
     async UserByUserEmail(userEmail){
         const user=await UserModel.findOne({email:userEmail});
@@ -79,10 +56,7 @@ class userRepository{
         );
     }
     //============================================
-    async insertOneUser(user){
-        const result=await UserModel.insertOne(user);
-        return result;
-    }
+
     //============================================
     async UserByUserId(userId){
         const user=await UserModel.findById(userId);
@@ -199,18 +173,9 @@ class userRepository{
     //============================================
 
     // token işlemleri
-
     //============================================
     // doğrulama token ile kullanıcıyı bulma
-    async UserByEmailVerificationToken(token){
-        try{
-            const user=await UserModel.findOne({emailVerificationToken:token});
-            return user;
-        }
-        catch(error){
-            console.log('UserByEmailVerificationToken hatasi: ',error);
-        }
-    }
+
     //============================================
     async UserByResetPasswordVerificationToken(token){
         try{
@@ -221,45 +186,7 @@ class userRepository{
         }
     }
     //============================================
-    async UpdateUser(userData) {
-        const userId = userData.id;
-        try {
-            // Mongoose belgesini düz bir JavaScript nesnesine dönüştür
-            const plainUserData = userData.toObject ? userData.toObject() : userData;
-            
-            // _id alanını kaldır çünkü MongoDB bunu güncelleyemez
-            delete plainUserData.id;
-            
-            const user = await UserModel.findByIdAndUpdate(
-                userId,
-                { $set: plainUserData },
-                { new: true }
-            );
-            return new User(
-                user._id,
-                user.name,
-                user.email,
-                user.password,
-                user.isEmailVerified,
-                user.emailVerificationToken,
-                user.emailVerificationExpires,
-                user.passwordVerificationToken,
-                user.passwordVerificationExpires,
-                user.phoneNumberVerificationToken,
-                user.phoneNumberVerificationExpires,
-                user.role,
-                user.cart,
-                user.sex,
-                user.addresses,
-                user.cards,
-                user.phoneNumber
-            );
-        }
-        catch(error) {
-            console.log('UpdateUser hatası: ', error);
-            throw error;
-        }
-    }
+
     //============================================
     async updateUserMailToken(userData){
         try{
@@ -283,6 +210,229 @@ class userRepository{
         }
     }
     //============================================
+
+
+
+
+
+
+    
+
+
+
+    //============================================
+    async findByUserName(userName){
+        try{
+            logger.debug('Finding user by username',{userName});
+            const user=await UserModel.findOne({name:userName});
+            if(!user){
+                logger.debug('User not found by userName', { userName });
+                return null;
+            }
+            logger.debug('User found by userName',{
+                userId:user._id,
+                userName:user.name
+            });
+            return new User(
+                user.id,
+                user.name,
+                user.email,
+                user.password,
+                user.isEmailVerified,
+                user.emailVerificationToken,
+                user.emailVerificationExpires,
+                user.passwordVerificationToken,
+                user.passwordVerificationExpires,
+                user.phoneNumberVerificationToken,
+                user.phoneNumberVerificationExpires,
+                user.role,
+                user.cart,
+                user.sex,
+                user.addresses,
+                user.cards,
+                user.phoneNumber
+            );
+        }catch(error){
+            logger.logError(error,null,{
+                action:'UserByUserName',
+                userName:userName
+            });
+            throw error;
+        }
+
+    }
+    //============================================
+    async findByEmail(email) {
+        try {
+            logger.debug('Finding user by email', { email });
+            const user = await UserModel.findOne({email});
+
+            if (!user) {
+                logger.debug('User not found by email', { email });
+                return null;
+            }
+            
+            logger.debug('User found by email', { 
+                userId: user._id,
+                email: user.email 
+            });
+            return user;
+
+        } catch (error) {
+            logger.logError(error, null, {
+                action: 'findByEmail',
+                email
+            });
+            throw error;
+        }
+    }
+    //============================================
+    async insertOneUser(userData){
+        try{
+            logger.debug('Inserting user',{userData});
+            const result=await UserModel.insertOne(userData);
+            if(!result){
+                logger.debug('User not inserted',{userData});
+                throw new Error('User not inserted');
+            }
+            logger.debug('User inserted',{result});
+            return result;
+        }
+        catch(error){
+            logger.logError(error,null,{
+                action:'insertOneUser',
+                user:userData
+            });
+            throw error;
+        }
+    }
+    //============================================
+    async findByEmailVerificationToken(token){
+        try{
+            logger.debug('Finding user by email verification token',{token});
+            const user=await UserModel.findOne({emailVerificationToken:token});
+            if(!user){
+                logger.debug('User not found by email verification token',{token});
+                return null;
+            }
+            logger.debug('User found by email verification token',{
+                userId:user._id,
+                email:user.email
+            });
+            return user;
+        }
+        catch(error){
+            logger.logError(error,null,{
+                action:'UserByEmailVerificationToken',
+                token:token
+            })
+        }
+    }
+    //============================================
+    async UpdateUser(userData) {
+        try {
+            logger.debug('UpdateUser repository updating user',{userData});
+            const userId = userData.id;
+            // Mongoose belgesini düz bir JavaScript nesnesine dönüştür
+            const plainUserData = userData.toObject ? userData.toObject() : userData;
+            logger.debug('UpdateUser plainUserData',{plainUserData});
+            // _id alanını kaldır çünkü MongoDB bunu güncelleyemez
+            delete plainUserData.id;
+            logger.debug('plainUserData after deleting id',{plainUserData});
+            // kullanıcıyı güncelle
+            const user = await UserModel.findByIdAndUpdate(
+                userId,
+                { $set: plainUserData },
+                { new: true }
+            );
+            logger.debug('UpdateUser user with $set',{user});
+            return new User(
+                user._id,
+                user.name,
+                user.email,
+                user.password,
+                user.isEmailVerified,
+                user.emailVerificationToken,
+                user.emailVerificationExpires,
+                user.passwordVerificationToken,
+                user.passwordVerificationExpires,
+                user.phoneNumberVerificationToken,
+                user.phoneNumberVerificationExpires,
+                user.role,
+                user.cart,
+                user.sex,
+                user.addresses,
+                user.cards,
+                user.phoneNumber
+            );
+        }
+        catch(error) {
+            logger.logError(error,null,{
+                action:'UpdateUser',
+                user:userData
+            })
+            throw error;
+        }
+    }
+    //============================================
+    async UserByVerificationToken(token){
+        try{
+            logger.debug('Finding user by token',{token});
+            const user=await UserModel.findOne({token});
+            
+            if(!user){
+                logger.debug('User not found by token',{token});
+                return null;
+            }
+            logger.debug('User found by token',{
+                userId:user._id,
+                email:user.email
+            })
+            return user;
+        }
+        catch(error){
+            logger.logError(error,null,{
+                action:'finyByToken',
+                token
+            });
+            throw error;
+        }
+    }
+    //============================================
+
+
+    
+
+
+
+
+
+    async validatePassword(user, password) {
+        try {
+            logger.debug('Validating user password', { 
+                userId: user._id,
+                email: user.email 
+            });
+            
+            const isValid = await user.comparePassword(password);
+            
+            if (!isValid) {
+                logger.debug('Invalid password for user', { 
+                    userId: user._id,
+                    email: user.email 
+                });
+            }
+            
+            return isValid;
+        } catch (error) {
+            logger.logError(error, null, {
+                action: 'validatePassword',
+                userId: user._id,
+                email: user.email
+            });
+            throw error;
+        }
+    }
 }
 
 module.exports=new userRepository();

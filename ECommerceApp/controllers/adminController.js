@@ -6,6 +6,13 @@ const productService=require('../services/productService');
 const Product=require('../Models/Product');
 const Category=require('../Models/Category');
 
+
+const logger=require('../config/logger');
+
+
+
+
+
 class adminController{
     constructor(adminService,categoryService,productService){
         this.adminService=adminService;
@@ -14,37 +21,155 @@ class adminController{
     }
     //---------------------------------------
     async getAddProduct(req,res,next){
-        const categories=await categoryService.getAllCategories();
+        // const categories=await  this.categoryService.getAllCategories();
 
-        res.render('admin/add-product',{
-            title:'Add a New Product',
-            path:'/admin/add-product',
-            categories:categories
-        });
+        // res.render('admin/add-product',{
+        //     title:'Add a New Product',
+        //     path:'/admin/add-product',
+        //     categories:categories
+        // });
+        try {
+            // Kategorileri getir (örnek)
+            const categoriesList = await categoryService.getAllCategories();
+            
+            res.render('admin/add-product', {
+                title:'Add a New Product',
+                path:'/admin/add-product',
+                categories:categoriesList,
+            });
+        } catch (error) {
+            console.error('Get add product error:', error);
+            res.render('admin/add-product', {
+                dangerMessage: 'Sayfa yüklenirken hata oluştu',
+                categories: categoriesList,
+            });
+        }
     } 
     //---------------------------------------
     async postAddProduct(req,res,next){
-        try{
-            const name=req.body.name;
-            const price=req.body.price;
-            const imageUrl=req.body.imageUrl;
-            const description=req.body.description;
-            const categories=req.body.categoryIds;
+        try{   
+            const requestId=Math.random().toString(36).substr(2,9);
+            const startTime=Date.now();
+
+
+            const { name, price, imageUrl, brand, description, categoryIds } = req.body;
+
+            // categoryIds kontrolü ve düzeltmesi
+            let processedCategoryIds = [];
+            if (categoryIds) {
+                if (Array.isArray(categoryIds)) {
+                    processedCategoryIds = categoryIds;
+                } else {
+                    // Tek kategori seçilmişse string olarak gelir
+                    processedCategoryIds = [categoryIds];
+                }
+            }
+
+            console.log('Gelen categoryIds:', categoryIds);
+            console.log('İşlenmiş categoryIds:', processedCategoryIds);
+
             const product={
                 name:name,
-                price:price,
+                price:parseFloat(price),
                 description:description,
                 imageUrl:imageUrl,
-                categories:categories,
-                date: Date.now
+                brand:brand,
+                categories:[...categoryIds],
+                isActive:true,
+                tags:['smart phohe','smart computer'], //  this.generateTags(name, brand), // Otomatik tag oluştur
+                userId:req.session.user.id,
+                date: Date.now()
+                
             };
-            await productService.getInsertOneProduct(product);
-            res.redirect('/admin/products');
+
+            // logger.info('Product creation started by admin',{
+            //     requestId,
+            //     ...req.body,
+            //     productName:req.body.name
+            // });
+
+
+            console.log('Controller: Ürün ekleme işlemi başlatılıyor:', product.name);
+            const saveProductData=await productService.getInsertOneProduct(product);
+            console.log('Controller: Ürün başarıyla eklendi:', saveProductData.id);
+
+            // Başarılı kayıt - kategorileri tekrar getir
+            //const categories = await this.categoryService.getAllActiveCategories();
+            const categoryList=await categoryService.getAllCategories();
+
+
+            res.render('admin/add-product',{
+                successMessage:`"${saveProductData.name}" ürünü başarıyla eklendi!`,
+                title:'Add a New Product',
+                path:'/admin/add-product',
+                categories:categoryList,
+            });
         }
-        catch(error){
-            console.error(error);
+         catch (error) {
+            console.error('Controller: Ürün ekleme hatası:', error.message);
+            
+            // Kategorileri tekrar getir (hata durumunda da form çalışabilsin)
+            // let categoriesList = [];
+            // try {
+            //     const categoryIds = await this.categoryService.getAllCategories();
+            //     categoriesList.add(categoryIds)
+            // } catch (categoryError) {
+            //     console.error('Kategori getirme hatası:', categoryError);
+            // }
+            
+            // // Hata tipine göre farklı mesajlar ve HTTP status kodları
+            // let errorMessage = 'Ürün eklenirken bir hata oluştu';
+            // let statusCode = 500;
+            
+            // if (error.message.includes('Bu isimde bir ürününüz zaten mevcut')) {
+            //     errorMessage = 'Bu isimde bir ürününüz zaten sistemde kayıtlı. Lütfen farklı bir isim seçin.';
+            //     statusCode = 409; // Conflict
+            // } else if (error.message.includes('Veritabanı validation hatası')) {
+            //     errorMessage = `Veri doğrulama hatası: ${error.message.replace('Veritabanı validation hatası: ', '')}`;
+            //     statusCode = 400; // Bad Request
+            // } else if (error.message.includes('Seçilen kategorilerden bazıları geçersiz')) {
+            //     errorMessage = 'Seçilen kategoriler geçersiz. Lütfen geçerli kategoriler seçin.';
+            //     statusCode = 400;
+            // } else if (error.message.includes('yasaklı kelimeler')) {
+            //     errorMessage = 'Ürün adında uygunsuz kelimeler bulunuyor. Lütfen düzenleyin.';
+            //     statusCode = 400;
+            // } else if (error.message.includes('Veritabanı hatası')) {
+            //     errorMessage = 'Veritabanı bağlantı sorunu. Lütfen daha sonra tekrar deneyin.';
+            //     statusCode = 503; // Service Unavailable
+            // } else if (error.message.includes('Ürün fiyatı çok yüksek')) {
+            //     errorMessage = 'Ürün fiyatı çok yüksek. Maksimum 1.000.000 TL olabilir.';
+            //     statusCode = 400;
+            // }
+            
+            // res.status(statusCode).render('admin/add-product', {
+            //     errorMessage: errorMessage,
+            //     formData: req.body, // Form verilerini koru
+            //     categories: categoriesList,
+            // });
         }
     }
+    //     // Yardımcı metodlar
+    // generateTags(name, brand) {
+    //     const tags = [];
+        
+    //     // Ürün adından tag oluştur
+    //     const nameWords = name.toLowerCase().split(' ');
+    //     tags.push(...nameWords.filter(word => word.length > 2));
+        
+    //     // Marka adını ekle
+    //     tags.push(brand.toLowerCase());
+        
+    //     // Tekrarları kaldır
+    //     return [...new Set(tags)];
+    // }
+
+    // getErrorType(errorMessage) {
+    //     if (errorMessage.includes('zaten mevcut')) return 'duplicate';
+    //     if (errorMessage.includes('validation')) return 'validation';
+    //     if (errorMessage.includes('Veritabanı')) return 'database';
+    //     if (errorMessage.includes('yasaklı')) return 'business';
+    //     return 'general';
+    // }
     //---------------------------------------
     async getEditProduct(req,res,next){
         try{

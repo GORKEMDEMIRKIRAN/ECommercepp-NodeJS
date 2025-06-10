@@ -10,25 +10,40 @@ block styles
 
 block content
 
+    if(successMessage)
+        div.alert.alert-success #{successMessage}
+    if(warningMessage)
+        div.alert.alert-warning #{warningMessage}
+    if(dangerMessage)
+        div.alert.alert-danger #{dangerMessage}
+    if(errorMessage)
+        div.alert.alert-danger #{errorMessage}
+
     form(action="/admin/add-product", method="POST")
     
         // csurf token istekte almak için
         input(type="hidden",name="_csrf",value=`${csrfToken}`)
 
+
         .row.form-group
             label.col-sm-2.col-form-label(for="name") Name
             .col-sm-10
-                input.form-control(type="text", id="name", name="name")
+                input.form-control(type="text", id="name", name="name" )
         // =================
         .row.form-group
             label.col-sm-2.col-form-label(for="price") Price
             .col-sm-10
-                input.form-control(type="text", id="price", name="price")
+                input.form-control(type="text", id="price", name="price" )
         // =================
         .row.form-group
             label.col-sm-2.col-form-label(for="imageUrl") ImageUrl
             .col-sm-10
-                input.form-control(type="text", id="imageUrl", name="imageUrl")
+                input.form-control(type="text", id="imageUrl", name="imageUrl" )
+        // =================
+        .row.form-group
+            label.col-sm-2.col-form-label(for="brand") brand
+            .col-sm-10
+                input.form-control(type="text", id="brand", name="brand" )
         // ================= 
         .row.form-group.my-2
             // select içindeki name anahtarını post ile göndericektir.
@@ -41,16 +56,19 @@ block content
             .col-sm-4.col-form-label 
                 label(for="categoryId") Category
             .col-sm-8
-                each category in categories
-                    .row
-                        label #{category.name} 
-                        input(type="checkbox", name="categoryIds" value=`${category._id}`)
+                if categories && categories.length>0
+                    each category in categories
+                        .row
+                            label #{category.name} 
+                            input(type="checkbox", name="categoryIds" value=`${category._id}`)
+                            //- label #{category._id}
+                else
+                    p No categories available
         // =================
         .row.form-group
             label.col-sm-2.col-form-label(for="description") Description
             .col-sm-10
                 input.form-control(type="text", id="description", name="description")
-            
         // =================    
         .row.form-group.mt-2
             .col-sm-10

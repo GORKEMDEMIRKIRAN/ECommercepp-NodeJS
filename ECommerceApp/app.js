@@ -8,18 +8,18 @@
 const express=require('express');
 const path=require('path');
 const cookieParser=require('cookie-parser');   // cookie process
-const logger=require('morgan');   // for logger
+//const logger=require('morgan');   // for logger
 const errorHandler=require('./middlewares/errorMiddleware.js');  // Error middleware section
 const bodyParser=require('body-parser');
 // Debug middleware
 const debugMiddleware = require('./middlewares/debugMiddleware.js');
-
 
 //==============================================
 // ROUTES
 const accountRoutes=require('./routes/accountRoutes.js');
 const adminRoutes=require('./routes/adminRoutes.js');
 const shopRoutes=require('./routes/shopRoutes.js');
+const authRoutes = require('./routes/authRoutes.js');
 //==============================================
 // Express app
 const app=express();
@@ -36,7 +36,7 @@ app.set('views', path.join(__dirname, 'views')); // __dirname mevcut dosyanın y
 app.set('view engine','pug');
 //==============================================
 // MIDDLEWARES
-app.use(logger('dev'));
+// app.use(logger('dev'));
 app.use(express.json());
 app.use(bodyParser.urlencoded({extended:false})); 
 app.use(cookieParser());
@@ -51,7 +51,6 @@ var SessionStore=new MongoDBStore({
   uri:process.env.MONGODB_URI,
   collection:'Sessions' // database oluşacak şema ismi
 });
-
 
 
 // Session kurulumud
@@ -110,13 +109,20 @@ app.use((req,res,next)=>{
 });
 
 
-
+//==============================================
+// http logs
+const logger=require('./config/logger.js'); // logger config
+app.use((req, res, next) =>{
+  logger.logRequest(req, 'Incoming request');
+  next();
+});
 //==============================================
 // ROUTES
 console.log('Routes yükleniyor....');
 app.use('/account', accountRoutes);
 app.use('/admin', adminRoutes);
 app.use('/shop', shopRoutes);
+app.use('/auth', authRoutes);
 console.log('Routes yüklendi.');
 //==============================================
 // Ana sayfa route'u
@@ -125,6 +131,7 @@ app.get('/', (req, res) => {
 });
 //==============================================
 //Error handler - CSRF hatalarını özel olarak ele alın
+/*
 app.use((err, req, res, next) => {
    if (err.code === 'EBADCSRFTOKEN') {
        console.error('CSRF TOKEN HATASI VAR:', err);
@@ -135,10 +142,13 @@ app.use((err, req, res, next) => {
    }
    next(err);
 });
+*/
 //==============================================
 // Error handler
 app.use(errorHandler);
 //==============================================
+
+
 module.exports=app;
 
 

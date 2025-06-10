@@ -1,0 +1,66 @@
+
+
+
+İş Akışı Özeti
+1. Request Gelir (POST /admin/add-product)
+Client → Express Router
+
+Copy
+2. Auth Middleware Kontrolü
+requireAuth → requireAdmin → devam
+
+Copy
+3. Validation Middleware (1. Katman)
+productValidationRules() → validate() → 
+- Başarılı: Controller'a geç
+- Hatalı: Error render et, dur
+
+Copy
+4. Controller Katmanı (2. Katman)
+postAddProduct() → 
+- Request data'yı hazırla
+- Service katmanını çağır
+- Response'u handle et
+
+Copy
+5. Service Katmanı (3. Katman)
+getInsertOneProduct() → 
+- Business logic kontrolları
+- Repository katmanını çağır
+- Business error handling
+
+Copy
+6. Repository Katmanı (4. Katman)
+insertOneProduct() → 
+- Database işlemleri
+- MongoDB error handling
+- Data transformation
+
+Copy
+7. Response Döner
+Database → Repository → Service → Controller → View → Client
+
+
+
+
+Test Senaryoları
+    Başarılı Kayıt:
+        Tüm validationlar geçer
+        Business rules geçer
+        Database'e kaydedilir
+        Başarı mesajı gösterilir
+    Validation Hatası:
+        Middleware seviyesinde yakalanır
+        Form verileri korunur
+        Hata mesajları gösterilir
+    Business Logic Hatası:
+        Service katmanında yakalanır
+        Anlamlı hata mesajı döner
+        Form verileri korunur
+    Database Hatası:
+        Repository katmanında yakalanır
+        Teknik hata kullanıcı dostu mesaja çevrilir
+        Sistem loglanır
+
+
+Bu yapı ile separation of concerns prensibi tam olarak uygulanmış olur ve her katman kendi sorumluluğunu alır.

@@ -4,6 +4,9 @@ const productRepository=require('../Data/Repositories/productRepository');
 
 
 class productService{
+    constructor(productRepository){
+        this.productRepository=productRepository;
+    }
     //=======================================
     // ALL PRODUCTS
     async getAllProducts(){
@@ -24,7 +27,7 @@ class productService{
         return await productRepository.countProducts();
     }
     //=======================================
-    async getUpdateProduct(id,productData){
+    async getUpdateProduct(id,productData){    
         return await productRepository.updateProduct(id,productData);
     }
     //=======================================
@@ -33,8 +36,21 @@ class productService{
         return await productRepository.insertManyProducts(productData);
     }
     //=======================================
+    // BUSINESS LOGIC
     async getInsertOneProduct(product){
-        return await productRepository.insertOneProduct(product);
+        try {
+            // Business logic kontrolları
+            //await this.validateBusinessRules(product);
+            
+            const result = await productRepository.insertOneProduct(product);
+            
+            console.log('Service: Ürün başarıyla kaydedildi:', result.id);
+            return result;
+        } catch (error) {
+            console.error('Service Error:', error.message);
+            throw error; // Error'ı controller'a fırlat
+        }
+
     }
     //=======================================
     async getDeleteProduct(id){
@@ -45,6 +61,9 @@ class productService{
         return await productRepository.productsByIds(productIds);
     }
     //=======================================
+    async findByName(value){
+        return await productRepository.getFindByName(value);
+    }
     //=======================================
 }
 

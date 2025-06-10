@@ -21,6 +21,11 @@ class productRepository{
         ));
     }
     //==========================================
+    async getFindByName(value){
+        const result=await ProductModel.findOne(value);
+        return result;
+    }
+    //==========================================
     async findProductById(id){
         const product=await ProductModel.findById(id);
         if(!product){
@@ -109,21 +114,41 @@ class productRepository{
                 price:product.price,
                 description:product.description,
                 imageUrl:product.imageUrl,
-                categories:product.categories
+                categories:product.categories,
+                isActive:product.isActive,
+                tags:product.tags,
+                userId:product.userId
             });
-            const result=await productmodel.save();
+            const result=await productmodel.save()
             return new Product(
                 result._id.toString(),
                 result.name,
-                product.brand,
+                result.brand,
                 result.price,
                 result.description,
                 result.imageUrl,
-                result.categories
+                result.categories,
+                result.isActive,
+                result.tags,
+                result.userId
             );
-        }
-        catch(error){
-            throw new Error(`Error inserting product: ${error.message}`);
+        }catch (error) {
+            console.error('Repository Error:', error);   
+            // MongoDB spesifik hataları yakala ve anlamlı hale getir
+            if (error.code === 11000) {
+                if (error.keyPattern && error.keyPattern.name && error.keyPattern.userId) {
+                    throw new Error('Bu isimde bir ürününüz zaten mevcut');
+                }
+                throw new Error('Bu ürün zaten sistemde kayıtlı');
+            }        
+            if (error.name === 'ValidationError') {
+                const messages = Object.values(error.errors).map(err => err.message);
+                throw new Error(`Veritabanı validation hatası: ${messages.join(', ')}`);
+            }           
+            if (error.name === 'CastError') {
+                throw new Error('Geçersiz veri formatı');
+            }            
+            throw new Error(`Veritabanı hatası: ${error.message}`);
         }
     }
     //==========================================

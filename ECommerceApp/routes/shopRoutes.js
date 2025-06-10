@@ -17,8 +17,6 @@ router.get('/details/:productId',shopController.getProduct);
 router.get('/categories/:categoryId',shopController.getProductsByCategoryId);
 //===============================================
 
-
-
 // CARD
 // Korumalı route'lar - CSRF koruması var
 //===============================================

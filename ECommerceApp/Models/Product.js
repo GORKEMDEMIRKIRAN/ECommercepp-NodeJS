@@ -3,14 +3,24 @@
 
 
 class Product{
-    constructor(id,name,brand,price,description,imageUrl,categories){
+    constructor(id,name,brand,price,description,imageUrl,categoryIds,isActive,tags,userId){
         this.id=id;
         this.name=name;
         this.brand=brand;
         this.price=price;
         this.description=description;
         this.imageUrl=imageUrl;
-        this.categories=categories;
+        // categoryIds güvenli kontrolü
+        if (Array.isArray(categoryIds)) {
+            this.categories = [...categoryIds];
+        } else if (categoryIds) {
+            this.categories = [categoryIds]; // Tek kategori
+        } else {
+            this.categories = []; // Boş array
+        }
+        this.isActive=isActive;
+        this.tags=tags || [];
+        this.userId=userId;
     }
     toJSON(){
         return{
@@ -20,7 +30,10 @@ class Product{
             price:this.price,
             description:this.description,
             imageUrl:this.imageUrl,
-            categories:this.categories
+            categories:this.categories,
+            isActive:this.isActive,
+            tags:this.tags,
+            userId:this.userId
         }
     }
 }

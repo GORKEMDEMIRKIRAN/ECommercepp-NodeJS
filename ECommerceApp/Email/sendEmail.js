@@ -9,9 +9,12 @@
 const dotenv=require('dotenv');
 dotenv.config();
 
+const logger=require('../utils/logger');
+
 
 const sgMail=require('@sendgrid/mail');
 sgMail.setApiKey(process.env.MAIL_API_KEY);
+
 
 //==============================================================
 async function CreateLoginMessage(email,subject,htmlText){
@@ -85,12 +88,12 @@ const transporter=nodemailer.createTransport({
 // RASSWORD RESET FUNCTION
 async function ResetPasswordSendEmail(email,verificationUrl,userName){
     const subject="Parola Sıfırlama";
-    const text=`Hesabınızı doğrulamak için lütfen bağlatıya tıklayın: ${verificationUrl}`;
+    const text=`Hesabınızın şifresini değiştirmek için lütfen bağlatıya tıklayın: ${verificationUrl}`;
     const html=
         `
         <h1>Hoş Geldiniz!</h1>
-        <p>Merhaba ${userName},</p>
-        <p>Parola Resetleme için lütfen buraya tıklayın:</p>
+        <p>Merhaba ${userName}</p>
+        <p>Parola resetleme için lütfen buraya tıklayın:</p>
         <p>
             <a href="${verificationUrl}" style="padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">
             Parola Sıfırlama
@@ -111,6 +114,8 @@ async function ResetPasswordSendEmail(email,verificationUrl,userName){
         const info=await transporter.sendMail(mailOptions);
         console.log('E-posta başarıyla gönderildi!');
         console.log('Mesaj ID: ',info.messageId);
+        logger.info('Parola sıfırlama için email gönderildi',{email});
+        logger.info('Parola sıfırlama mesaj ID:',info.messageId);
         return info;
 
     }catch(error){
@@ -152,10 +157,12 @@ async function VerificationSendEmail(email,verificationUrl,userName){
         const info=await transporter.sendMail(mailOptions);
         console.log('E-posta başarıyla gönderildi!');
         console.log('Mesaj ID: ',info.messageId);
+        logger.info('Email doğrulama email gönderildi',{email});
+        logger.info('Email doğrulama mesaj ID:',info.messageId);
         return info;
 
     }catch(error){
-        console.error('E-posta gödnerilirken hata oluştu: ',error);
+        console.error('E-posta gönderilirken hata oluştu: ',error);
         throw error;  
     }
 }

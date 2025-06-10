@@ -9,11 +9,16 @@ const {ResetPasswordSendEmail,VerificationSendEmail}=require('../Email/sendEmail
 const {generateVerificationToken}=require('../Email/mailCreateToken');
 
 
+// logger
+const logger=require('../config/logger');
+
+
 class accountController{
     constructor(userService){
         this.userService=userService;
     }
     //=====================================
+    /*
     async getLogin(req,res,next){
         // session içinden aldığımız error mesajı sayfaya yansıtma
         // gelen session sayfaya yansıtma sonrası session içinden temizleme
@@ -32,9 +37,17 @@ class accountController{
     async postLogin(req, res, next) {
         try {
             const { email, password } = req.body;
+
+            // Request log
+            logger.logRequest(req, 'Login Request');
     
             // Email ve şifre kontrolü
             if (!email || !password) {
+                logger.warn('Login Request: Email or password is missing',{
+                    email:email ? 'provided' : 'missing',
+                    password:password ? 'provided' : 'missing'
+                });
+                // return res.status(400).json({ error: 'Email and password are required' });
                 req.session.errorMessage = 'Lütfen email ve şifre giriniz';
                 return req.session.save(err => {
                     if (err) console.error('Session kaydetme hatası:', err);
@@ -53,6 +66,7 @@ class accountController{
                     return res.redirect('/account/login');
                 });
             }
+
             console.log('giriş işlemi sonucu user: ',user);
             // Girilen şifreyi hash ile karşılaştırma
             const isPasswordValid = await bcryptjs.compare(password, user.password);
@@ -65,6 +79,8 @@ class accountController{
                     return res.redirect('/account/login');
                 });
             }
+
+
 
             // e-posta doğrulaması kontrolü
             if(!user.isEmailVerified){
@@ -126,7 +142,6 @@ class accountController{
             });
         }
     }
-    
     //=====================================
     async getRegister(req,res,next){
         var errorMessage=req.session.errorMessage;
@@ -300,6 +315,7 @@ class accountController{
             });
         }
     }
+       
     //=====================================
     async getReset(req,res,next){
         try {
@@ -319,8 +335,10 @@ class accountController{
             });
             console.log(error);
         }
-    }  
+    } 
+    */
     //=====================================
+    /*
     async postReset(req,res,next){
         try{
             console.log('========================================');
@@ -371,11 +389,9 @@ class accountController{
             });
         }
     }
-
+    */
     //=====================================
-
-
-    //=====================================
+    /*
     async getAgainVerifyEmail(req,res,next){
         // mail giriş ekranı
         // post işlemidne sonra session mesaj ekleme
@@ -394,7 +410,6 @@ class accountController{
         }
 
     }
-
     async postAgainVerifyEmail(req,res,next){
         try{
             // 1- Kullanıcı kontrolü
@@ -503,6 +518,7 @@ class accountController{
         }
 
     }
+  
     //=====================================
 
     async getResetPassword(req,res,next){
@@ -586,28 +602,7 @@ class accountController{
     }
     //====================================================================
 
-
-    async getProfile(req,res,next){
-        try{
-            const userId=req.session.user.id;
-            const user=await userService.getUserByUserId(userId);
-            if(!user){
-                throw new Error('getProfile user not found');
-            }
-            res.render('account/profile',{
-                user:user,
-                path:'/profile'
-            })
-        }
-        catch(error){
-            console.error('Error in getProfile controller: ',error);
-        }
-    }
-    //=====================================
-    async updateProfile(req,res,next){
-        
-    }
-    //=====================================
+ 
     async getLogout(req,res,next){
         try{
             // session tabanlı auth kullanılıyorsa
@@ -641,13 +636,29 @@ class accountController{
             });
         }
     }
+    */
+
     //=====================================
-
-
-
-
-
-
+    async getProfile(req,res,next){
+        try{
+            const userId=req.session.user.id;
+            const user=await userService.getUserByUserId(userId);
+            if(!user){
+                throw new Error('getProfile user not found');
+            }
+            res.render('account/profile',{
+                user:user,
+                path:'/profile'
+            })
+        }
+        catch(error){
+            console.error('Error in getProfile controller: ',error);
+        }
+    }
+    //=====================================
+    async updateProfile(req,res,next){
+        
+    }
     //=====================================
     async getAddress(req,res,next){
         try{
@@ -705,7 +716,5 @@ class accountController{
 
     }
     //=====================================
-
 }
-
 module.exports=new accountController();

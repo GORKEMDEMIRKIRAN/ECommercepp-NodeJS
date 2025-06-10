@@ -83,7 +83,7 @@ const isAuthenticated = (req, res, next) => {
         return next();
     }
     //--------------------------------------------------------------------
-    return res.status(401).render('account/login', {
+    return res.status(401).render('auth/login', {
         pageTitle: 'General Authentication Required',
         path: '/error',
         statusCode: 401,

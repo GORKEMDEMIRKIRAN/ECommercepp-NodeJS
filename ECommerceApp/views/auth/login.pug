@@ -1,0 +1,51 @@
+
+
+
+extends ../layouts/main-layout.pug
+
+block styles 
+
+block content 
+
+    if successMessage 
+        div.alert.alert-success #{successMessage}
+    if errorMessage 
+        div.alert.alert-danger #{errorMessage}
+
+
+    h2 LOGIN
+    div.card.bg-secondary(style="width:700px").mt-2
+        div.card-body
+            form(action="/auth/login" method="POST")
+
+                // csurf token istekte almak için
+                input(type="hidden",name="_csrf",value=csrfToken)
+                
+                .row.form-group 
+                    .col-sm-2
+                        label.col.col-form-label(for="email") User Email 
+                    .col-sm-10
+                        input.form-control(type="text",id="email",name="email")
+                
+                .row.form-group.mt-2 
+                    .col-sm-2 
+                        label.col.col-form-label(for="password") User Password 
+                    .col-sm-10    
+                        input.form-control(type="text",id="password",name="password")
+                
+            
+                .row.form-group-mt-5 
+                    .col-sm-10
+                    .col-sm-2 
+                        input.btn.btn-primary(type="submit",value="Login").btn-lg
+
+                
+                .row.form-group-mt-5 
+                    .col-sm-3
+                        a(href="/auth/reset-password").btn.btn-warning.btn-sm Reset Password
+                    .col-sm-3
+                        a(href='/auth/again-verify-email').btn.btn-warning.btn-sm Send Email Verify
+
+
+        
+

@@ -4,14 +4,12 @@
 
 const productService=require('../services/productService');
 const categoryService=require('../services/categoryService');
-const userService=require('../services/userService');
 const cartService=require('../services/cartService');
 const orderService=require('../services/orderService');
-const { ordersUserById } = require('../Data/Repositories/orderRepository');
+
+
 // PRODUCT CONTROLLER
-
 //=======================================
-
 class shopController{
     //---------------------------------------
     constructor(productService,categoryService,cartService,orderService){
@@ -214,6 +212,4 @@ class shopController{
     //---------------------------------------
 }
 module.exports= new shopController();
-
-
 //=======================================
