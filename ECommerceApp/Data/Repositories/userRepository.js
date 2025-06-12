@@ -214,12 +214,6 @@ class userRepository{
 
 
 
-
-
-    
-
-
-
     //============================================
     async findByUserName(userName){
         try{
@@ -260,6 +254,29 @@ class userRepository{
             throw error;
         }
 
+    }
+    //============================================
+    async findByUserRole(role){
+        try{
+            logger.debug('Finding user by role',{role});
+            const user=await UserModel.findOne({role:role});
+            if(!user){
+                logger.debug('User not found by role', { role });
+                return null;
+            }
+            logger.debug('User found by userRole',{
+                userId:user._id,
+                userName:user.name
+            });
+            return user._id||user.id;
+        }
+        catch(error){
+            logger.logError(error, null, {
+                action: 'findByUserRole',
+                role:role
+            });
+            throw error;
+        }
     }
     //============================================
     async findByEmail(email) {
@@ -399,13 +416,6 @@ class userRepository{
         }
     }
     //============================================
-
-
-    
-
-
-
-
 
     async validatePassword(user, password) {
         try {

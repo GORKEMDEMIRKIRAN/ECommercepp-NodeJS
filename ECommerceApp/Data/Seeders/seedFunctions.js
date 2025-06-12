@@ -8,6 +8,9 @@ const fs=require('fs').promises;
 const Product=require('../../Models/Product');
 const path=require('path');
 
+
+const categoryRepository=require('../../Data/Repositories/categoryRepository');
+
 //====================================================
 // txt dosyasını okuma
 async function ReadFile(fileTxt){
@@ -24,7 +27,7 @@ async function ReadFile(fileTxt){
 // verilen string fortatını json formatına çevirme
 
 // Veri satırını işleyen fonksiyon
-async function ConvertDataToProduct(dataString,idNumber){
+async function ConvertDataToProduct(dataString,idNumber,leadUserId){
     // '|' karakterlerine göre veriyi bölelim.
     const parts=dataString.split('|').map(part=>part.trim());
     // price düzenleme
@@ -36,6 +39,26 @@ async function ConvertDataToProduct(dataString,idNumber){
     const prc1=prc.replace('.','');
     const prc2=prc1.replace(',','.');
 
+    //---------------------------------------------------------
+    // şimdi ilk önce database içine kategoriler ekleniyor.
+    // Bu kısımda database kategorilerin id'lerini alıp
+    // ürünlerin kategoriler kısmına ekleyeceğiz.
+    const dbCategories=await categoryRepository.findAll();
+    for(let i=0;i<dbCategories.length;i++){
+        // eğer kategori adı satırdaki kategori ile eşleşiyorsa
+
+        if(parts[6].trim().toLowerCase().replace(/\s/g, '')===dbCategories[i].name.trim().toLowerCase().replace(/\s/g, '')){
+            // kategori id'sini alalım
+            parts[6]=dbCategories[i]._id.toString();
+        }
+        else if(parts[7].trim().toLowerCase().replace(/\s/g, '')===dbCategories[i].name.trim().toLowerCase().replace(/\s/g, '')){
+            // kategori id'sini alalım
+            parts[7]=dbCategories[i]._id.toString();
+        }
+    }
+    //---------------------------------------------------------
+    // şimdi tanımladığım (lead_developer) repository bulup burada seed yaptığım
+
     // parçaları ayarlama
     const id=idNumber;
     const name=parts[1];
@@ -44,19 +67,22 @@ async function ConvertDataToProduct(dataString,idNumber){
     const description=parts[4];
     const imageUrl=parts[5];
     const categories=[parts[6],parts[7]];
+    const isActive=true;
+    // tags verisi boş ise boş dizi olarak ayarlama
+    // eğer boş değilse virgülle ayrılmış etiketleri diziye çevirme
+    const tags=parts[8] ? parts[8].split(',').map(tag=>tag.trim()) : ['cihaz'];
+    //const userId = leadUserId && (leadUserId.id || leadUserId._id) ? (leadUserId.id || leadUserId._id): null;
+    const userId= leadUserId ? leadUserId : null;
+    //---------------------------------------------------------
     // product nesnesini oluşturalım
-    const product=new Product(id,name,brand,price,description,imageUrl,categories);
-    // json formatına dönüştürme
-    // const product={
-    //     id,
-    //     name,
-    //     brand,
-    //     price,
-    //     description,
-    //     imageUrl,
-    //     categories
-    // }
+    const product=new Product(id,name,
+                                brand,price,
+                                description,imageUrl,
+                                categories,isActive,
+                                tags,userId);
+    //---------------------------------------------------------
     return product.toJSON();
+    //---------------------------------------------------------
 }
 //====================================================
 // verilen dosya yol dizilerini alıp tek txt yapan metot
@@ -88,11 +114,11 @@ async function UpgradeTextData(textData){
         const newFilePath4=path.join(datasDir,'soundsystem_modified.txt');
         const newFilePath5=path.join(datasDir,'tablet_modified.txt');     
         
-        const path1='|Bilgisayar|elektronik';
-        const path2='|Buzdolabı|elektronik';
-        const path3='|Telefon|elektronik';
-        const path4='|Ses Sistemi|elektronik';
-        const path5='|Tablet|elektronik';
+        const path1='|bilgisayar|elektronik';
+        const path2='|buzdolabı|elektronik';
+        const path3='|telefon|elektronik';
+        const path4='|ses sistemi|elektronik';
+        const path5='|tablet|elektronik';
         // dosya yolundan dosya ismini alma
         const len=row.split('\\').length;
         filename=row.split('\\')[len-1];
@@ -119,7 +145,6 @@ async function UpgradeTextData(textData){
             await fs.writeFile(newFilePath1,modifiedContent,'utf8');
             console.log(`Yeni dosya oluşturuldu: ${newFilePath1}`);     
             //---------------------------------------
-
         }
         //=========================================================
         else if(`${filename.trim()}`=='fridge.txt'){

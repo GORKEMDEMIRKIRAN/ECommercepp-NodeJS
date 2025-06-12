@@ -326,14 +326,6 @@ class AuthService {
     }
     //======================================================
 
-
-
-
-
-
-
-
-
     
     // Şifre işlemleri
     async forgotPassword(email) {

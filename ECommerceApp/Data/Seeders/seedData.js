@@ -37,7 +37,24 @@ const updateFiles = [
 
 
 
+
+//====================================================
+const userRepository=require('../../Data/Repositories/userRepository');
+let lead_UserId = null;
+async function getLeadUser() {
+    if (!lead_UserId) {
+        lead_UserId = await userRepository.findByUserRole('lead_developer');
+    }
+    return lead_UserId;
+}
+//====================================================
+
+
+
 async function DataSeed(){
+    // lead developer user id'sini al
+    const leadUserId = await getLeadUser();
+    //------------------------------------------------
     // 1- dosya birleştirme
     // 2- dosyayı okuma
     // 3- dosyadaki verileri product json formatına çevirme
@@ -53,7 +70,7 @@ async function DataSeed(){
     const convertedData=[];
     let count=1;
     for(const row of data){
-        const convertedRow=await ConvertDataToProduct(row,count);
+        const convertedRow=await ConvertDataToProduct(row,count,leadUserId);
         convertedData.push(convertedRow);
         count++;
     }
@@ -69,14 +86,13 @@ async function DataSeed(){
 
 
 const categoryList=[
-    {name:'Telefon',description:'telefon kategorisi'},
-    {name:'Bilgisayar',description:'bilgisayar kategorisi'},
-    {name:'Beyaz Eşya',description:'Beyaz Eşya Kategorisi'},
-    {name:'Buzdolabı',description:'Buzdolabı  Kategorisi'},
-    {name:'Ses Sistemi',description:'Ses sistemi Kategorisi'},
-    {name:'tablet',description:'tablet Kategorisi'},
-    {name:'Elektronik',description:'Elektronik Kategorisi'}
-    
+    {name:'telefon',description:'telefon kategorisi'},
+    {name:'bilgisayar',description:'bilgisayar kategorisi'},
+    {name:'beyaz eşya',description:'beyaz eşya kategorisi'},
+    {name:'buzdolabı',description:'buzdolabı  kategorisi'},
+    {name:'ses sistemi',description:'ses sistemi kategorisi'},
+    {name:'tablet',description:'tablet kategorisi'},
+    {name:'elektronik',description:'elektronik kategorisi'} 
 ];
 
 const categoryService=require('../../services/categoryService');

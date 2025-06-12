@@ -1,3 +1,0 @@
-
-
-// ŞİFRE HASH METODU

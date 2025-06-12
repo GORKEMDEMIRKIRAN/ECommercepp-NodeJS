@@ -31,9 +31,16 @@ const connectDB=async()=>{
         await mongoose.connect(uri)
             .then(async()=>{
             // seed metotları
+            // bu kısımda seed kategoriye ekledikten sonra veri tabanında oluşan
+            // kategori id'lerini kullanarak ürünleri ekleyeceğiz
+            // Bu sayede ürünler kategorilere göre ayrılmış olacak
+
+
+            // ilk önce kategorileri ve users ekleyelim
+            // daha sonra user ve categori id'yi ürümlere ekleyelim.
             await seedCategories();
-            await seedProducts();
             await seedUsers();
+            await seedProducts();
             console.log('Connected to mongodb'); 
             })
             .catch(err=>{

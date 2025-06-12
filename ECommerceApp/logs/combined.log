@@ -124,3 +124,815 @@
 {"ip":"::1","level":"http","message":"GET | /shop/orders | Incoming request","timestamp":"2025-06-11 02:12:58:1258","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
 {"ip":"::1","level":"http","message":"GET | /account/profile | Incoming request","timestamp":"2025-06-11 02:13:00:130","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
 {"ip":"::1","level":"http","message":"GET | /account/profile | Incoming request","timestamp":"2025-06-11 02:13:07:137","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-11 02:18:32:1832","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /shop/products | Incoming request","timestamp":"2025-06-11 02:18:33:1833","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /shop/cart | Incoming request","timestamp":"2025-06-11 02:18:34:1834","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /shop/~/css/cart.css | Incoming request","timestamp":"2025-06-11 02:18:34:1834","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /shop/orders | Incoming request","timestamp":"2025-06-11 02:18:35:1835","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /account/profile | Incoming request","timestamp":"2025-06-11 02:18:38:1838","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /auth/logout | Incoming request","timestamp":"2025-06-11 02:18:39:1839","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /logout | Logout attempt","timestamp":"2025-06-11 02:18:39:1839","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"level":"info","message":"Logout attempt","timestamp":"2025-06-11 02:18:39:1839","userId":"6822826d1a9f0a4c8e669077"}
+{"level":"info","message":"User logged out successfully","timestamp":"2025-06-11 02:18:39:1839","userId":"6822826d1a9f0a4c8e669077"}
+{"level":"info","message":"Logout request successful","timestamp":"2025-06-11 02:18:39:1839","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-11 02:18:39:1839","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-11 02:18:39:1839"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-11 02:20:59:2059","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-11 02:20:59:2059"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-11 02:21:05:215","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-11 02:21:05:215"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-11 02:21:20:2120","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-11 02:21:20:2120"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-11 02:21:42:2142","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-11 02:21:42:2142"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-11 02:21:55:2155","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-11 02:21:55:2155"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-11 02:24:21:2421","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-11 02:24:21:2421"}
+{"ip":"::1","level":"http","message":"POST | /auth/login | Incoming request","timestamp":"2025-06-11 02:26:44:2644","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"POST | /login | Login attempt","timestamp":"2025-06-11 02:26:44:2644","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"email":"gorkem@example.com","level":"info","message":"authservice - Login attempt","timestamp":"2025-06-11 02:26:44:2644"}
+{"email":"gorkem@example.com","level":"debug","message":"Finding user by email","timestamp":"2025-06-11 02:26:44:2644"}
+{"email":"gorkem@example.com","level":"debug","message":"User found by email","timestamp":"2025-06-11 02:26:44:2644","userId":"6822826d1a9f0a4c8e669077"}
+{"email":"gorkem@example.com","level":"info","message":"User authenticated successfully","role":"admin","timestamp":"2025-06-11 02:26:44:2644","userId":"6822826d1a9f0a4c8e669077"}
+{"email":"gorkem@example.com","level":"info","message":"Login request successful","role":"admin","timestamp":"2025-06-11 02:26:44:2644","userId":"6822826d1a9f0a4c8e669077"}
+{"level":"info","message":"postLoginPage-session kaydedildi","timestamp":"2025-06-11 02:26:45:2645"}
+{"ip":"::1","level":"http","message":"GET | / | Incoming request","timestamp":"2025-06-11 02:26:45:2645","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-11 02:26:45:2645","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /shop/2.jpg | Incoming request","timestamp":"2025-06-11 02:26:46:2646","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /shop/4.jpg | Incoming request","timestamp":"2025-06-11 02:26:46:2646","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /account/profile | Incoming request","timestamp":"2025-06-11 02:26:48:2648","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /auth/logout | Incoming request","timestamp":"2025-06-11 02:26:49:2649","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /logout | Logout attempt","timestamp":"2025-06-11 02:26:49:2649","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"level":"info","message":"Logout attempt","timestamp":"2025-06-11 02:26:49:2649","userId":"6822826d1a9f0a4c8e669077"}
+{"level":"info","message":"User logged out successfully","timestamp":"2025-06-11 02:26:49:2649","userId":"6822826d1a9f0a4c8e669077"}
+{"level":"info","message":"Logout request successful","timestamp":"2025-06-11 02:26:50:2650","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-11 02:26:50:2650","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-11 02:26:50:2650"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-11 02:26:51:2651","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-11 02:26:51:2651"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-11 02:26:52:2652","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/4.jpg | Incoming request","timestamp":"2025-06-11 02:26:53:2653","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/2.jpg | Incoming request","timestamp":"2025-06-11 02:26:53:2653","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-11 02:26:54:2654","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-11 02:26:54:2654"}
+{"ip":"::1","level":"http","message":"POST | /auth/login | Incoming request","timestamp":"2025-06-11 02:27:00:270","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"POST | /login | Login attempt","timestamp":"2025-06-11 02:27:00:270","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"email":"gorkem@example.com","level":"info","message":"authservice - Login attempt","timestamp":"2025-06-11 02:27:00:270"}
+{"email":"gorkem@example.com","level":"debug","message":"Finding user by email","timestamp":"2025-06-11 02:27:00:270"}
+{"email":"gorkem@example.com","level":"debug","message":"User found by email","timestamp":"2025-06-11 02:27:00:270","userId":"6822826d1a9f0a4c8e669077"}
+{"email":"gorkem@example.com","level":"info","message":"User authenticated successfully","role":"admin","timestamp":"2025-06-11 02:27:00:270","userId":"6822826d1a9f0a4c8e669077"}
+{"email":"gorkem@example.com","level":"info","message":"Login request successful","role":"admin","timestamp":"2025-06-11 02:27:00:270","userId":"6822826d1a9f0a4c8e669077"}
+{"level":"info","message":"postLoginPage-session kaydedildi","timestamp":"2025-06-11 02:27:00:270"}
+{"ip":"::1","level":"http","message":"GET | / | Incoming request","timestamp":"2025-06-11 02:27:00:270","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-11 02:27:00:270","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /shop/4.jpg | Incoming request","timestamp":"2025-06-11 02:27:01:271","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /shop/2.jpg | Incoming request","timestamp":"2025-06-11 02:27:01:271","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /admin/add-category | Incoming request","timestamp":"2025-06-11 02:27:03:273","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /add-category | Admin product request","timestamp":"2025-06-11 02:27:03:273","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /admin/category-list | Incoming request","timestamp":"2025-06-11 02:27:04:274","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /category-list | Admin product request","timestamp":"2025-06-11 02:27:04:274","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /admin/products | Incoming request","timestamp":"2025-06-11 02:27:04:274","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /admin/4.jpg | Incoming request","timestamp":"2025-06-11 02:27:06:276","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /admin/2.jpg | Incoming request","timestamp":"2025-06-11 02:27:06:276","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /admin/add-product | Incoming request","timestamp":"2025-06-11 02:27:08:278","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /auth/logout | Incoming request","timestamp":"2025-06-11 02:27:55:2755","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /logout | Logout attempt","timestamp":"2025-06-11 02:27:55:2755","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"6822826d1a9f0a4c8e669077"}
+{"level":"info","message":"Logout attempt","timestamp":"2025-06-11 02:27:55:2755","userId":"6822826d1a9f0a4c8e669077"}
+{"level":"info","message":"User logged out successfully","timestamp":"2025-06-11 02:27:55:2755","userId":"6822826d1a9f0a4c8e669077"}
+{"level":"info","message":"Logout request successful","timestamp":"2025-06-11 02:27:55:2755","userId":"6822826d1a9f0a4c8e669077"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-11 02:27:55:2755","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-11 02:27:55:2755"}
+{"ip":"::1","level":"http","message":"GET | /products | Incoming request","timestamp":"2025-06-11 03:22:28:2228","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /products | Incoming request","timestamp":"2025-06-11 03:22:31:2231","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /products | Incoming request","timestamp":"2025-06-11 03:23:21:2321","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-12 23:56:48:5648"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:20:16:2016"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:20:16:2016","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 00:20:16:2016"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:06:226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:06:226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:06:226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:06:226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:06:226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:06:226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:06:226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:06:226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:06:226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:06:226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:06:226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:06:226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:06:226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:07:227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:07:227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:07:227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:07:227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:07:227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:07:227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:07:227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:07:227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:07:227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:07:227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:07:227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:07:227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:07:227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:07:227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:07:227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:07:227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:07:227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:07:227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:08:228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:08:228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:08:228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:08:228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:08:228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:08:228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:08:228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:08:228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:08:228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:08:228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:08:228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:08:228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:08:228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:08:228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:08:228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:08:228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:08:228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:08:228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:09:229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:09:229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:09:229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:09:229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:09:229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:09:229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:09:229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:09:229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:09:229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:09:229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:09:229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:09:229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:09:229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:09:229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:09:229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:09:229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:09:229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:09:229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:10:2210","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:10:2210"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:10:2210","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:10:2210"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:10:2210","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:10:2210"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:10:2210","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:10:2210"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:10:2210","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:10:2210"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:10:2210","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:10:2210"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:10:2210","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:10:2210"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:10:2210","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:10:2210"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:10:2210","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:10:2210"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:11:2211","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:11:2211"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:11:2211","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:11:2211"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:11:2211","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:11:2211"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:11:2211","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:11:2211"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:11:2211","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:11:2211"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:11:2211","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:11:2211"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:11:2211","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:11:2211"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:11:2211","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:11:2211"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:11:2211","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:11:2211"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:11:2211","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:12:2212"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:12:2212","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:12:2212"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:12:2212","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:12:2212"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:12:2212","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:12:2212"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:12:2212","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:12:2212"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:12:2212","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:12:2212"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:12:2212","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:12:2212"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:12:2212","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:12:2212"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:12:2212","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:12:2212"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:13:2213","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:13:2213"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:13:2213","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:13:2213"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:13:2213","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:13:2213"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:13:2213","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:13:2213"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:13:2213","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:13:2213"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:13:2213","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:13:2213"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:13:2213","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:13:2213"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:13:2213","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:13:2213"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:13:2213","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:13:2213"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:14:2214","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:14:2214"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:14:2214","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:14:2214"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:14:2214","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:14:2214"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:14:2214","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:14:2214"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:14:2214","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:14:2214"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:14:2214","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:14:2214"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:14:2214","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:14:2214"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:14:2214","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:14:2214"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:14:2214","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:14:2214"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:15:2215","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:15:2215"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:15:2215","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:15:2215"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:15:2215","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:15:2215"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:15:2215","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:15:2215"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:15:2215","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:15:2215"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:15:2215","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:15:2215"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:15:2215","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:15:2215"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:15:2215","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:15:2215"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:15:2215","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:15:2215"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:16:2216","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:16:2216"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:16:2216","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:16:2216"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:16:2216","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:16:2216"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:16:2216","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:16:2216"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:16:2216","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:16:2216"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:16:2216","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:16:2216"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:16:2216","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:16:2216"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:16:2216","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:16:2216"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:16:2216","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:16:2216"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:17:2217","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:17:2217"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:17:2217","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:17:2217"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:17:2217","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:17:2217"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:17:2217","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:17:2217"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:17:2217","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:17:2217"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:17:2217","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:17:2217"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:17:2217","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:17:2217"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:17:2217","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:17:2217"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:17:2217","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:17:2217"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:17:2217","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:18:2218"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:18:2218","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:18:2218"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:18:2218","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:18:2218"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:18:2218","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:18:2218"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:18:2218","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:18:2218"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:18:2218","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:18:2218"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:18:2218","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:18:2218"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:18:2218","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:18:2218"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:18:2218","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:18:2218"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:18:2218","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:19:2219"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:19:2219","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:19:2219"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:19:2219","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:19:2219"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:19:2219","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:19:2219"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:19:2219","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:19:2219"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:19:2219","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:19:2219"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:19:2219","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:19:2219"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:19:2219","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:19:2219"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:19:2219","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:19:2219"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:19:2219","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:20:2220"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:20:2220","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:20:2220"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:20:2220","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:20:2220"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:20:2220","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:20:2220"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:20:2220","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:20:2220"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:20:2220","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:20:2220"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:20:2220","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:20:2220"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:20:2220","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:20:2220"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:20:2220","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:20:2220"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:20:2220","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:21:2221"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:21:2221","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:21:2221"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:21:2221","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:21:2221"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:21:2221","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:21:2221"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:21:2221","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:21:2221"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:21:2221","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:21:2221"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:21:2221","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:21:2221"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:21:2221","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:21:2221"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:21:2221","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:21:2221"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:21:2221","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:22:2222"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:22:2222","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:22:2222"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:22:2222","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:22:2222"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:22:2222","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:22:2222"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:22:2222","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:22:2222"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:22:2222","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:22:2222"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:22:2222","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:22:2222"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:22:2222","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:22:2222"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:22:2222","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:22:2222"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:22:2222","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:23:2223"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:23:2223","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:23:2223"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:23:2223","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:23:2223"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:23:2223","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:23:2223"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:23:2223","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:23:2223"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:23:2223","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:23:2223"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:23:2223","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:23:2223"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:23:2223","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:23:2223"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:23:2223","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:23:2223"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:23:2223","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:24:2224"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:24:2224","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:24:2224"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:24:2224","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:24:2224"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:24:2224","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:24:2224"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:24:2224","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:24:2224"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:24:2224","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:24:2224"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:24:2224","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:24:2224"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:24:2224","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:24:2224"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:24:2224","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:24:2224"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:24:2224","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:25:2225"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:25:2225","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:25:2225"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:25:2225","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:25:2225"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:25:2225","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:25:2225"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:25:2225","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:25:2225"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:25:2225","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:25:2225"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:25:2225","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:25:2225"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:25:2225","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:25:2225"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:25:2225","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:25:2225"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:25:2225","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:26:2226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:26:2226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:26:2226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:26:2226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:26:2226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:26:2226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:26:2226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:26:2226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:26:2226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:26:2226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:26:2226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:26:2226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:26:2226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:26:2226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:26:2226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:26:2226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:26:2226"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:26:2226","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:27:2227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:27:2227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:27:2227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:27:2227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:27:2227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:27:2227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:27:2227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:27:2227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:27:2227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:27:2227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:27:2227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:27:2227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:27:2227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:27:2227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:27:2227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:27:2227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:27:2227"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:27:2227","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:28:2228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:28:2228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:28:2228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:28:2228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:28:2228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:28:2228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:28:2228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:28:2228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:28:2228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:28:2228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:28:2228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:28:2228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:28:2228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:28:2228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:28:2228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:28:2228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:28:2228"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:28:2228","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:29:2229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:29:2229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:29:2229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:29:2229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:29:2229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:29:2229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:29:2229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:29:2229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:29:2229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:29:2229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:29:2229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:29:2229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:29:2229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:29:2229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:29:2229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:29:2229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:29:2229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:29:2229","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:29:2229"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:30:2230","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:30:2230"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:30:2230","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:30:2230"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:30:2230","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:30:2230"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:30:2230","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:30:2230"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:30:2230","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:30:2230"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:30:2230","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:30:2230"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:30:2230","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:30:2230"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:30:2230","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:30:2230"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:30:2230","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:30:2230"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:31:2231","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:31:2231"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:31:2231","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:31:2231"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:31:2231","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:31:2231"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:31:2231","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:31:2231"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:31:2231","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:31:2231"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:31:2231","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:31:2231"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:31:2231","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:31:2231"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:31:2231","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:31:2231"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:31:2231","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:31:2231"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:32:2232","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:32:2232"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:32:2232","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:32:2232"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:32:2232","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:32:2232"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:32:2232","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:32:2232"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:32:2232","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:32:2232"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:32:2232","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:32:2232"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:32:2232","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:32:2232"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:32:2232","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:32:2232"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:32:2232","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:32:2232"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:33:2233","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:33:2233"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:33:2233","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:33:2233"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:33:2233","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:33:2233"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:33:2233","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:33:2233"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:33:2233","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:33:2233"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:33:2233","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:33:2233"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:33:2233","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:33:2233"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:33:2233","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:33:2233"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:33:2233","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:33:2233"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:34:2234","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:34:2234"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:34:2234","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:34:2234"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:34:2234","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:34:2234"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:34:2234","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:34:2234"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:34:2234","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:34:2234"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:34:2234","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:34:2234"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:34:2234","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:34:2234"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:34:2234","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:34:2234"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:34:2234","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:34:2234"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:35:2235","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:35:2235"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:35:2235","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:35:2235"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:35:2235","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:35:2235"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:35:2235","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:35:2235"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:35:2235","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:35:2235"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:35:2235","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:35:2235"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:35:2235","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:35:2235"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:35:2235","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:35:2235"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:35:2235","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:35:2235"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:36:2236","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:36:2236"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:36:2236","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:36:2236"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:36:2236","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:36:2236"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:36:2236","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:36:2236"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:36:2236","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:36:2236"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:36:2236","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:36:2236"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:36:2236","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:36:2236"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:36:2236","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:36:2236"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:36:2236","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:36:2236"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:37:2237","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:37:2237"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:37:2237","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:37:2237"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:37:2237","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:37:2237"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:37:2237","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:37:2237"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:37:2237","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:37:2237"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:37:2237","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:37:2237"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:37:2237","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:37:2237"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:37:2237","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:37:2237"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:37:2237","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:37:2237"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:38:2238","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:38:2238"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:38:2238","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:38:2238"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:38:2238","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:38:2238"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:38:2238","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:38:2238"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:38:2238","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:38:2238"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:38:2238","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:38:2238"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:38:2238","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:38:2238"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:38:2238","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:38:2238"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:38:2238","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:38:2238"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:38:2238","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:39:2239"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:22:39:2239","userId":"684b4490ea360e5fb11cd2a2","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:22:39:2239"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:31:43:3143"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:31:43:3143","userId":"684b473fbcd936ad1df0e79a","userName":"gorkem"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:32:15:3215"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:32:15:3215","userId":"684b473fbcd936ad1df0e79a","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 00:33:31:3331"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:45:37:4537"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:45:37:4537","userId":"684b473fbcd936ad1df0e79a","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 00:46:46:4646"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:52:12:5212"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:52:12:5212","userId":"684b473fbcd936ad1df0e79a","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 00:53:20:5320"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:56:11:5611"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:56:11:5611","userId":"684b473fbcd936ad1df0e79a","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 00:57:29:5729"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 00:58:45:5845"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 00:58:45:5845","userId":"684b473fbcd936ad1df0e79a","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 01:00:01:01"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 01:01:51:151"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 01:01:51:151","userId":"684b473fbcd936ad1df0e79a","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 01:03:00:30"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 01:06:30:630"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 01:06:30:630","userId":"684b473fbcd936ad1df0e79a","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 01:07:47:747"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 01:15:49:1549"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 01:15:49:1549","userId":"684b473fbcd936ad1df0e79a","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 01:15:49:1549"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 01:16:15:1615"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 01:16:15:1615","userId":"684b473fbcd936ad1df0e79a","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 01:17:31:1731"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 01:35:51:3551"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 01:35:51:3551","userId":"684b564685cec8922cd98c73","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 01:35:51:3551"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 01:38:11:3811"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 01:38:11:3811","userId":"684b564685cec8922cd98c73","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 01:39:30:3930"}
+{"level":"debug","message":"Finding user by role","role":"lead_developer","timestamp":"2025-06-13 01:44:27:4427"}
+{"level":"debug","message":"User found by userRole","timestamp":"2025-06-13 01:44:27:4427","userId":"684b564685cec8922cd98c73","userName":"gorkem"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-06-13 01:45:37:4537"}
+{"ip":"::1","level":"http","message":"GET | / | Incoming request","timestamp":"2025-06-13 01:46:10:4610","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 01:46:10:4610","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /favicon.ico | Incoming request","timestamp":"2025-06-13 01:46:14:4614","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/products | Incoming request","timestamp":"2025-06-13 01:46:15:4615","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 01:46:16:4616","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6a | Incoming request","timestamp":"2025-06-13 01:46:17:4617","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6b | Incoming request","timestamp":"2025-06-13 01:46:18:4618","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6c | Incoming request","timestamp":"2025-06-13 01:46:19:4619","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6d | Incoming request","timestamp":"2025-06-13 01:46:20:4620","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6e | Incoming request","timestamp":"2025-06-13 01:46:22:4622","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6f | Incoming request","timestamp":"2025-06-13 01:46:23:4623","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6e | Incoming request","timestamp":"2025-06-13 01:46:24:4624","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6f | Incoming request","timestamp":"2025-06-13 01:46:25:4625","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c70 | Incoming request","timestamp":"2025-06-13 01:46:25:4625","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6a | Incoming request","timestamp":"2025-06-13 01:46:29:4629","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /shop/details/684b589042aab7532672603b | Incoming request","timestamp":"2025-06-13 01:46:32:4632","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-13 01:46:36:4636","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-13 01:46:36:4636"}
+{"ip":"::1","level":"http","message":"GET | /auth/register | Incoming request","timestamp":"2025-06-13 01:46:37:4637","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Register page requested","timestamp":"2025-06-13 01:46:37:4637"}
+{"ip":"::1","level":"http","message":"GET | /auth/login | Incoming request","timestamp":"2025-06-13 01:46:38:4638","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"level":"debug","message":"Login page requested","timestamp":"2025-06-13 01:46:38:4638"}
+{"ip":"::1","level":"http","message":"POST | /auth/login | Incoming request","timestamp":"2025-06-13 01:46:44:4644","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"http","message":"POST | /login | Login attempt","timestamp":"2025-06-13 01:46:44:4644","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
+{"email":"gorkem@example.com","level":"info","message":"authservice - Login attempt","timestamp":"2025-06-13 01:46:44:4644"}
+{"email":"gorkem@example.com","level":"debug","message":"Finding user by email","timestamp":"2025-06-13 01:46:44:4644"}
+{"email":"gorkem@example.com","level":"debug","message":"User found by email","timestamp":"2025-06-13 01:46:44:4644","userId":"684b564685cec8922cd98c73"}
+{"email":"gorkem@example.com","level":"info","message":"User authenticated successfully","role":"lead_developer","timestamp":"2025-06-13 01:46:45:4645","userId":"684b564685cec8922cd98c73"}
+{"email":"gorkem@example.com","level":"info","message":"Login request successful","role":"lead_developer","timestamp":"2025-06-13 01:46:45:4645","userId":"684b564685cec8922cd98c73"}
+{"level":"info","message":"postLoginPage-session kaydedildi","timestamp":"2025-06-13 01:46:45:4645"}
+{"ip":"::1","level":"http","message":"GET | / | Incoming request","timestamp":"2025-06-13 01:46:45:4645","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 01:46:45:4645","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6b | Incoming request","timestamp":"2025-06-13 01:46:47:4647","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6c | Incoming request","timestamp":"2025-06-13 01:46:47:4647","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/cart | Incoming request","timestamp":"2025-06-13 01:46:48:4648","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/~/css/cart.css | Incoming request","timestamp":"2025-06-13 01:46:49:4649","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/orders | Incoming request","timestamp":"2025-06-13 01:46:50:4650","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/products | Incoming request","timestamp":"2025-06-13 01:46:50:4650","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 01:46:52:4652","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /account/profile | Incoming request","timestamp":"2025-06-13 01:46:54:4654","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 01:46:56:4656","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6a | Incoming request","timestamp":"2025-06-13 01:46:58:4658","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6b | Incoming request","timestamp":"2025-06-13 01:46:59:4659","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6d | Incoming request","timestamp":"2025-06-13 01:47:00:470","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6e | Incoming request","timestamp":"2025-06-13 01:47:01:471","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6d | Incoming request","timestamp":"2025-06-13 01:47:01:471","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6a | Incoming request","timestamp":"2025-06-13 01:47:08:478","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6f | Incoming request","timestamp":"2025-06-13 01:47:21:4721","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c70 | Incoming request","timestamp":"2025-06-13 01:47:22:4722","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6f | Incoming request","timestamp":"2025-06-13 01:47:25:4725","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6e | Incoming request","timestamp":"2025-06-13 01:47:27:4727","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6a | Incoming request","timestamp":"2025-06-13 01:47:33:4733","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6a | Incoming request","timestamp":"2025-06-13 02:05:11:511","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6b | Incoming request","timestamp":"2025-06-13 02:05:12:512","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6c | Incoming request","timestamp":"2025-06-13 02:05:13:513","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6d | Incoming request","timestamp":"2025-06-13 02:05:14:514","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6e | Incoming request","timestamp":"2025-06-13 02:05:15:515","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6f | Incoming request","timestamp":"2025-06-13 02:05:15:515","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c70 | Incoming request","timestamp":"2025-06-13 02:05:16:516","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6a | Incoming request","timestamp":"2025-06-13 02:05:17:517","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6a | Incoming request","timestamp":"2025-06-13 02:09:21:921","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c70 | Incoming request","timestamp":"2025-06-13 02:09:24:924","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6f | Incoming request","timestamp":"2025-06-13 02:09:26:926","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6e | Incoming request","timestamp":"2025-06-13 02:09:28:928","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6d | Incoming request","timestamp":"2025-06-13 02:09:29:929","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/details/684b589042aab75326725efc | Incoming request","timestamp":"2025-06-13 02:09:33:933","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/cart | Incoming request","timestamp":"2025-06-13 02:09:37:937","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/~/css/cart.css | Incoming request","timestamp":"2025-06-13 02:09:37:937","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/products | Incoming request","timestamp":"2025-06-13 02:09:39:939","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"POST | /shop/cart | Incoming request","timestamp":"2025-06-13 02:09:41:941","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 02:09:41:941","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"POST | /shop/cart | Incoming request","timestamp":"2025-06-13 02:09:44:944","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 02:09:44:944","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"POST | /shop/cart | Incoming request","timestamp":"2025-06-13 02:09:46:946","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 02:09:47:947","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"POST | /shop/cart | Incoming request","timestamp":"2025-06-13 02:09:51:951","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 02:09:51:951","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/cart | Incoming request","timestamp":"2025-06-13 02:09:54:954","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/~/css/cart.css | Incoming request","timestamp":"2025-06-13 02:09:54:954","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/orders | Incoming request","timestamp":"2025-06-13 02:09:56:956","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/cart | Incoming request","timestamp":"2025-06-13 02:09:57:957","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/~/css/cart.css | Incoming request","timestamp":"2025-06-13 02:09:58:958","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/products | Incoming request","timestamp":"2025-06-13 02:09:58:958","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 02:09:59:959","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6e | Incoming request","timestamp":"2025-06-13 02:10:01:101","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6c | Incoming request","timestamp":"2025-06-13 02:10:02:102","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/categories/684b564685cec8922cd98c6a | Incoming request","timestamp":"2025-06-13 02:10:02:102","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /account/profile | Incoming request","timestamp":"2025-06-13 02:10:04:104","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/cart | Incoming request","timestamp":"2025-06-13 02:10:06:106","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/~/css/cart.css | Incoming request","timestamp":"2025-06-13 02:10:06:106","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/products | Incoming request","timestamp":"2025-06-13 02:10:08:108","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 02:10:09:109","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}
+{"ip":"::1","level":"http","message":"GET | /shop/index | Incoming request","timestamp":"2025-06-13 02:10:49:1049","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","userId":"684b564685cec8922cd98c73"}

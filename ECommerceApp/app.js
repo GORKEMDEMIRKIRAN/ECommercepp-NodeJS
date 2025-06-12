@@ -53,7 +53,7 @@ var SessionStore=new MongoDBStore({
 });
 
 
-// Session kurulumud
+// Session kurulumu
 app.use(session({
   secret:'your-secret-key', // session şifreleme anahtarı
   resave:false,

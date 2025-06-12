@@ -28,7 +28,7 @@ async function seedUsers(){
                     passwordVerificationExpires:null,
                     phoneNumberVerificationToken:null,
                     phoneNumberVerificationExpires:null,
-                    role:'admin',
+                    role:'lead_developer',
                     cart:{items:[]},
                     sex:'no',
                     addresses:{items:[]},
@@ -56,7 +56,7 @@ async function seedUsers(){
             ];
             
             await userService.getInsertManyUsers(userList);
-            console.log('Kullanıcı tablosu boştu,kullanıcı eklendi');
+            console.log('Kullanıcı tablosu boştu,kullanıcı verileri eklendi');
         }else{
             console.log('Kullanıcı tablosunda zaten veri var,seed işlemi atlandı');
         }

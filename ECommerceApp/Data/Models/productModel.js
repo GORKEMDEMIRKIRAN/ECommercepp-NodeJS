@@ -13,11 +13,11 @@ const productSchema=mongoose.Schema({
     },
     brand:{
         type:String,
-        required:[true,'Brand section ,s required'],
+        required:[true,'Brand section is required'],
     },
     price: {
         type:Number,
-        required:true,
+        required:function () { return this.isActive; },
         // Bunu kullanıcı ürün aktif ettiğinde fiyat zorunlu olmalı
         // ürün aktif olduğu durumda price alanı zorunlu olur.
         // ürün pasif olduğu durumda price alanı zorunlu olmaz.
@@ -26,7 +26,10 @@ const productSchema=mongoose.Schema({
         // }
         // enum:['phone','computer']  // phone yada cmputer olmalı yoksa hata alır.
     },
-    isActive:Boolean,
+    isActive:{
+        type:Boolean,
+        isActive:false, // default olarak false
+    },
     tags:{
         type:Array,
         validate:{
@@ -39,7 +42,7 @@ const productSchema=mongoose.Schema({
     description: String,
     imageUrl:String,
     userId:{
-        type:String,
+        type:mongoose.Schema.Types.ObjectId,
         required:[true,'UserId section is added']
     },
     categories:Array,

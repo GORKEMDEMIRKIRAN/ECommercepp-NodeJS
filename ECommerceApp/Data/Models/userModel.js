@@ -54,7 +54,7 @@ const userSchema=mongoose.Schema({
     //=====================
     role:{
         type:String,
-        enum:['admin','customer','seller','developer'],
+        enum:['admin','customer','seller','lead_developer','developer'],
         default:'customer'
     },
     cart:{
@@ -73,7 +73,8 @@ const userSchema=mongoose.Schema({
         }]
     },
     sex:{
-        type:String
+        type:String,
+        defaukt:'no', 
     },
     addresses:{
         type:Object,
