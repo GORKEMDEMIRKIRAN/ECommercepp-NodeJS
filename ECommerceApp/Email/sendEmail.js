@@ -157,7 +157,7 @@ async function VerificationSendEmail(email,verificationUrl,userName){
         const info=await transporter.sendMail(mailOptions);
         console.log('E-posta başarıyla gönderildi!');
         console.log('Mesaj ID: ',info.messageId);
-        logger.info('Email doğrulama email gönderildi',{email});
+        logger.info('Email doğrulama email gönderildi',info.email);
         logger.info('Email doğrulama mesaj ID:',info.messageId);
         return info;
 

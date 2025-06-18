@@ -100,6 +100,7 @@ app.use(debugMiddleware);
 // Her istekte view'lara kullanıcı bilgilerini göster
 app.use((req,res,next)=>{
   res.locals.isAuthenticated=req.session.isAuthenticated||false;
+  res.locals.isLeadDeveloper=req.session.isLeadDeveloper||false;
   res.locals.isAdmin=req.session.isAdmin||false;
   res.locals.isCustomer=req.session.isCustomer||false;
   res.locals.isSeller=req.session.isSeller||false;

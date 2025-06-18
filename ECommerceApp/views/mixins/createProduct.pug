@@ -8,10 +8,10 @@ mixin createProduct(product)
                 img.card-img-top(src=product.imageUrl, alt=`${product.name}`)
             .card-body
                 h4.card-title
-                    a(href=`/shop/details/${product.id}`) #{product.name}
-                p.card-text #{product.description}
+                    a(href=`/shop/details/${product.id}` id="title") #{product.name}
+                p.card-text(id="desc") #{product.description && product.description.substring(0, 50)}#{product.description && product.description.length > 50 ? '...' : ''}
                 small.text-muted
-                    i.fa.fa-try #{product.price}
+                    i.fa.fa-try(id="price") #{product.price} TL
             .card-footer
                 .row
                     .col(id="btns")

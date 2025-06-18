@@ -21,6 +21,25 @@ class productRepository{
         ));
     }
     //==========================================
+    async filterProducts(id){
+        console.log('repository userId:',id.toString());
+        const selectProducts=await ProductModel.find({userId:id});
+        if (!selectProducts || selectProducts.length === 0) {
+            return [];
+        }
+        return selectProducts.map(product => new Product(
+            product._id.toString(),
+            product.name,
+            product.brand,
+            product.price,
+            product.isActive,
+            product.description,
+            product.imageUrl,
+            product.userId,
+            product.categories
+        )); 
+    }
+    //==========================================
     async getFindByName(value){
         const result=await ProductModel.findOne(value);
         return result;

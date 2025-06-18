@@ -4,7 +4,7 @@
 const express=require('express');
 const router=express.Router();
 const adminController=require('../controllers/adminController');
-const {isAdmin,isAuthenticated}=require('../middlewares/authMiddleware');
+const {isAdminOrLeadDeveloper,isLeadDeveloper,isAuthenticated}=require('../middlewares/authMiddleware');
 const {csurf}=require('../middlewares/csurf');
 
 
@@ -60,19 +60,22 @@ const logRequest=(req,res,next)=>{
 //=========================================
 // router.get('/',adminController.getDashboard);
 //=========================================
-router.get('/products',csurf,isAuthenticated,isAdmin,adminController.getProducts);
+router.get('/products',csurf,
+                        isAuthenticated,
+                        isAdminOrLeadDeveloper,
+                        adminController.getProducts);
 //=========================================
 
 router.get('/add-product',csurf,
                             isAuthenticated,
-                            isAdmin,
-                            logSecurityCheck,
+                            isAdminOrLeadDeveloper,
+                            //logSecurityCheck,
                             logRequest,
                             adminController.getAddProduct);
 
 router.post('/add-product',isAuthenticated,
-                            isAdmin,
-                            logSecurityCheck,
+                            isAdminOrLeadDeveloper,
+                            //logSecurityCheck,
                             logRateLimit,
                             logRequest,
                             // validateProductCreationRate,
@@ -81,23 +84,68 @@ router.post('/add-product',isAuthenticated,
                             adminController.postAddProduct);
 
 //=========================================
-router.get('/edit-product/:productId',csurf,isAuthenticated,isAdmin,logRequest,adminController.getEditProduct);
-router.post('/edit-product',isAuthenticated,isAdmin,logRequest,adminController.postEditProduct);
+router.get('/edit-product/:productId',csurf,
+                            isAuthenticated,
+                            isAdminOrLeadDeveloper,
+                            logRequest,
+                            adminController.getEditProduct);
+
+router.post('/edit-product',isAuthenticated,
+                            isAdminOrLeadDeveloper,
+                            logRequest,
+                            adminController.postEditProduct);
+
 //=========================================
-router.post('/delete-product',isAuthenticated,isAdmin,logRequest,adminController.postDeleteProduct);
+router.post('/delete-product',isAuthenticated,
+                            isAdminOrLeadDeveloper,
+                            logRequest,
+                            adminController.postDeleteProduct);
 //=========================================
+
+
+
+
 
 // CATEGORY
 //=========================================
-router.get('/add-category',csurf,isAuthenticated,isAdmin,logRequest,adminController.getAddCategory);
-router.post('/add-category',isAuthenticated,isAdmin,logRequest,adminController.postAddCategory);
+router.get('/add-category',csurf,
+                            isAuthenticated,
+                            isLeadDeveloper,
+                            logRequest,
+                            adminController.getAddCategory);
+
+router.post('/add-category',isAuthenticated,
+                            isLeadDeveloper,
+                            logRequest,
+                            adminController.postAddCategory);
+
 //=========================================
-router.get('/edit-category/:categoryId',csurf,isAuthenticated,isAdmin,logRequest,adminController.getEditCategory);
-router.post('/edit-category',isAuthenticated,isAdmin,logRequest,adminController.postEditCategory);
+router.get('/edit-category/:categoryId',csurf,
+                            isAuthenticated,
+                            isLeadDeveloper,
+                            logRequest,
+                            adminController.getEditCategory);
+
+
+router.post('/edit-category',isAuthenticated,
+                            isLeadDeveloper,
+                            logRequest,
+                            adminController.postEditCategory);
 // //=========================================
-router.get('/category-list',csurf,isAuthenticated,isAdmin,logRequest,adminController.getCategories);
+
+
+router.get('/category-list',csurf,
+                            isAuthenticated,
+                            isLeadDeveloper,
+                            logRequest,
+                            adminController.getCategories);
+
+
 //=========================================
- router.post('/delete-category',isAuthenticated,isAdmin,logRequest,adminController.postDeleteCategory);
+ router.post('/delete-category',isAuthenticated,
+                            isLeadDeveloper,
+                            logRequest,
+                            adminController.postDeleteCategory);
 //=========================================
 
 

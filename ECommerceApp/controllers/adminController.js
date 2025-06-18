@@ -1,14 +1,13 @@
 
 
-const adminService=require('../services/adminService');
+
+
+
 const categoryService=require('../services/categoryService');
 const productService=require('../services/productService');
 const Product=require('../Models/Product');
-const Category=require('../Models/Category');
-
 
 const logger=require('../config/logger');
-
 
 
 
@@ -21,7 +20,7 @@ class adminController{
     }
     //---------------------------------------
     async getAddProduct(req,res,next){
-        // const categories=await  this.categoryService.getAllCategories();
+        // const categories=await this.categoryService.getAllCategories();
 
         // res.render('admin/add-product',{
         //     title:'Add a New Product',
@@ -259,7 +258,10 @@ class adminController{
     // ADMIN ALL PRODUCTS
     async getProducts(req,res,next){
         try{
-            const products=await productService.getAllProducts();
+            const userId=req.session.user.id;
+            console.log('session user id',userId);
+            
+            const products=await productService.userFilterProducts(userId);
             res.render('admin/products',{
                 title:'Admin Products',
                 productList:products,

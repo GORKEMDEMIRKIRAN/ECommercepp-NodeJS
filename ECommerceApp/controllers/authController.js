@@ -86,19 +86,28 @@ const authController = {
 
             // Role göre ek bayraklar ekle
             if (user.role === "admin") {
+                req.session.isLeadDeveloper = false;
                 req.session.isAdmin = true;
                 req.session.isCustomer = false;
                 req.session.isSeller = false;
                 req.session.isDeveloper = false;
             } else if (user.role === "customer") {
+                req.session.isLeadDeveloper = false;
                 req.session.isAdmin = false;
                 req.session.isCustomer = true;
                 req.session.isSeller = false;
                 req.session.isDeveloper = false;
             } else if (user.role === "seller") {
+                req.session.isLeadDeveloper = false;
                 req.session.isAdmin = false;
                 req.session.isCustomer = false;
                 req.session.isSeller = true;
+                req.session.isDeveloper = false;
+            } else if (user.role === "lead_developer") {
+                req.session.isLeadDeveloper = true;
+                req.session.isAdmin = false;
+                req.session.isCustomer = false;
+                req.session.isSeller = false;
                 req.session.isDeveloper = false;
             }
 

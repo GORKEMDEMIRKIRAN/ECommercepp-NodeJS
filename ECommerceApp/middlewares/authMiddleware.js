@@ -11,10 +11,12 @@
  */
 
 // Sadece adminler için
-const isAdmin=(req,res,next)=>{
-    // kullanıcı giriş yapmış mı kontrülü
+
+
+//______________________________________________________________________________________________
+const isLeadDeveloper=(req,res,next)=>{
     //--------------------------------------------------------------------
-    if(!req.session.isAuthenticated){
+    if(!req.session.isLeadDeveloper){
         return res.status(401).render('error/error',{
             pageTitle:'Admin Authentication Required',
             path:'/error',
@@ -23,17 +25,14 @@ const isAdmin=(req,res,next)=>{
         });
     }
     //--------------------------------------------------------------------
-    // if(req.session.user && req.session.user.role==='admin'){
-    //     return next();
-    // }
     req.session.redirectTo=req.url;
-    if(req.session.isAdmin){ 
+    if(req.session.isLeadDeveloper){ 
         return next();
     }
     //--------------------------------------------------------------------
-    // Admin değilse erişim reddedildi sayfasına yönlendir
+    // LeadDeveloper değilse erişim reddedildi sayfasına yönlendir
     return res.status(403).render('error/error',{
-        pageTitle:'Admin Access Denied',
+        pageTitle:'Lead Developer Access Denied',
         path:'/error',
         statusCode:403,
         message:'You do not have permission to access this page'
@@ -41,6 +40,32 @@ const isAdmin=(req,res,next)=>{
     //--------------------------------------------------------------------
 };
 
+
+//______________________________________________________________________________________________
+const isAdminOrLeadDeveloper = (req, res, next) => {
+    if (!req.session.isAuthenticated) {
+        return res.status(401).render('error/error', {
+            pageTitle: 'Authentication Required',
+            path: '/error',
+            statusCode: 401,
+            message: 'Please log in to access this page'
+        });
+    }
+    // Kullanıcı admin veya lead developer mı?
+    if (req.session.user && 
+        (req.session.user.role === 'admin' || req.session.user.role === 'lead_developer')) {
+        return next();
+    }
+    return res.status(403).render('error/error', {
+        pageTitle: 'Access Denied',
+        path: '/error',
+        statusCode: 403,
+        message: 'You do not have permission to access this page'
+    });
+};
+
+
+//______________________________________________________________________________________________
 // Sadece normal kullanıcı veya adminler için
 const isCustomer = (req, res, next) => {
     //--------------------------------------------------------------------
@@ -73,7 +98,7 @@ const isCustomer = (req, res, next) => {
     });
     //--------------------------------------------------------------------
 };
-
+//______________________________________________________________________________________________
 //  Her hangi bir giriş yapmış kullanıcı için
 const isAuthenticated = (req, res, next) => {
     //--------------------------------------------------------------------
@@ -91,10 +116,11 @@ const isAuthenticated = (req, res, next) => {
     });
     //--------------------------------------------------------------------
 };
+//______________________________________________________________________________________________
 
-
-
-
-
-
-module.exports={isAdmin,isCustomer,isAuthenticated};
+module.exports={isAdminOrLeadDeveloper,
+                isLeadDeveloper,
+                isCustomer,
+                isAuthenticated
+};
+//______________________________________________________________________________________________

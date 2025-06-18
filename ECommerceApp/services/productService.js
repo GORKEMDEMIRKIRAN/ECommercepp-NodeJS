@@ -13,6 +13,10 @@ class productService{
         return await productRepository.findAll();
     }
     //=======================================
+    async userFilterProducts(id){
+        return await productRepository.filterProducts(id);
+    }
+    //=======================================
     // Get One Product
     async getProductById(id){
         return await productRepository.findProductById(id);

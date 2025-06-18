@@ -2,10 +2,29 @@
 
 
 #productCard{
-    background-color: rgb(156, 153, 154);
-    color: red;
+    background-color: rgb(149, 149, 149);
+    color: rgb(247, 245, 247) !important;
+    text-align: center;
+}
+#productCard #title{
+    font-size: 18px;
+    padding: 2px 30px;
+    border-radius: 10px;
+    background-color: rgb(79, 71, 224);
+    color: rgb(255, 255, 255);
 }
 
+#productCard #desc{
+    color: rgb(209, 207, 211);
+}
+
+#productCard #price{
+    color: white;
+    font-size: 17px;
+    background-color: rgb(93, 117, 108);
+    padding: 6px;
+    border-radius: 5px;
+}
 
 #productCard .card-title{
     font-size: 15px;

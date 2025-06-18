@@ -256,6 +256,7 @@ class userRepository{
 
     }
     //============================================
+
     async findByUserRole(role){
         try{
             logger.debug('Finding user by role',{role});
