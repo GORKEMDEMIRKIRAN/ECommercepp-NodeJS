@@ -2,7 +2,7 @@
 
 
 const logger = require('../config/logger');
-const authService = require('../Services/authService');
+const authService = require('../services/adminService');
 const { ValidationError, 
     AuthError,
     UserNotFoundError,
